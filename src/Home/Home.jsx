@@ -9,8 +9,6 @@ import actionArr from '../Base/Actions/Actions'
 import BoxProps from './ActionsPropsBox/ActionsProps'
 import Typed from 'typed.js'
 import { useEffect, useRef } from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import informationArr from '../Base/Information/Information'
 import PropsBoxInfo from './PropsBoxHome/PropsBoxHome'
 
