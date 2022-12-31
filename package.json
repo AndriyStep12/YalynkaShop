@@ -39,7 +39,7 @@
         "handlebars": "^4.0.6",
         "handlebars-loader": "^1.4.0",
         "jquery": "^3.2.1",
-        "typed.js": "typed.js",
-        "path": "^0.12.7"
+        "typed.js": "0.2.0",
+        "path": "^0.12.7",
     }
 }
