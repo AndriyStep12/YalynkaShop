@@ -8,8 +8,6 @@ import ButtonMAP from './Button'
 import YTree from './LogoY4.png'
 // import '../App'
 import BodyCenter from '../BodyCenter/BodyCenter';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 
 let arr = JSON.parse(localStorage.getItem('arr'));
