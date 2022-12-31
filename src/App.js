@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import React, { Component } from "react";
 import { render } from "react-dom";
 import $ from "jquery";
-import Typed from 'react-typed';
 import { TypedOptions } from 'typed.js';
 import ReactTyped from 'react-typed';
 import { useEffect, useRef } from "react";
