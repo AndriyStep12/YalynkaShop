@@ -24,7 +24,7 @@ function Home (){
             // smartBackspace: false, // this is a default
             // loop: true,
             // cursorChar: "🎄",
-            showCursor: false,
+            showCursor: true,
             typeSpeed: 120,
             backSpeed: 40,
             smartBackspace: true, // this is a default
