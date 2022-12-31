@@ -34,19 +34,19 @@ class App extends Component {
   
   render(){
 
-    if (document.location.href == 'https://444c-193-107-177-74.ngrok.io/#Cart'){
+    if (document.location.href == 'https://yalynka-shop.vercel.app/#Cart'){
       appBox = <Cart/>
       helloApp = '';
-    } else if (document.location.href == 'https://444c-193-107-177-74.ngrok.io/#Feedback'){
+    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Feedback'){
       appBox = <Formy/>
       helloApp = '';
-    } else if (document.location.href == 'https://444c-193-107-177-74.ngrok.io/#Trees'){
+    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Trees'){
       appBox = <AllTree/>
       // helloApp = <BodyCenter/>;
-    } else if (document.location.href == 'https://444c-193-107-177-74.ngrok.io/#Home'){
+    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Home'){
       appBox = <HomePage />
       helloApp = '';
-    } else if (document.location.href == 'https://444c-193-107-177-74.ngrok.io/'){
+    } else if (document.location.href == 'https://yalynka-shop.vercel.app/'){
       appBox = <HomePage />
       helloApp = '';
     }

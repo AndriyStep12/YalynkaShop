@@ -88,7 +88,7 @@ function BucketForm () {
                             <input disabled className="boxPay" type="text" name="to_pay" value={ 'Total: ' + JSON.parse(localStorage.getItem("prices_")) + '$' }/>
                             <input className="displayNone" type="text" name="to_products" id="allWhatYouWantNumber" value={valy} />
                             <input  id="sendy" type="submit" value="Send" onClick={function(){
-                                // document.location.href == 'https://444c-193-107-177-74.ngrok.io/#Home';
+                                // document.location.href == 'https://yalynka-shop.vercel.app/#Home';
                                 // document.location.reload();
                                 alert("Sent successfully. Check your Gmail")
                                 localStorage.clear();
