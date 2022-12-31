@@ -4,6 +4,8 @@ import { render } from "react-dom";
 import $ from "jquery";
 import { TypedOptions } from 'typed.js';
 import { useEffect, useRef } from "react";
+import emailjs from '@emailjs/browser';
+
 
 import './App.css';
 import Head from './Header/header';

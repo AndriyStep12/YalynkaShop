@@ -6,7 +6,8 @@ import BoxBucket from '../BoxBucket/BoxBucket'
 import BoxBucketNone from '../NoneArr/NoneArr'
 import $ from 'jquery'
 import { useRef } from 'react';
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
+// import emailjs from "emailjs-com";
 
 let arr = JSON.parse(localStorage.getItem('arr'));
 

@@ -20,10 +20,7 @@ class AllTree extends Component{
                   <textarea name="formText" id="formText" cols="30" rows="10" placeholder="Your feedback"></textarea>
                 </div>
                 <div className="boxSend">
-                  <button className="text-box" type="submit" onClick={function(){
-                    document.location.href == 'https://444c-193-107-177-74.ngrok.io/#Home';
-                    document.location.reload();
-                  }}>
+                  <button className="text-box" type="submit">
                     Send It
                   </button>
                 </div>

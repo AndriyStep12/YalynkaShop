@@ -6,6 +6,9 @@ import { ReactDOM } from "react";
 import jQuery, { nodeName } from "jquery";
 import $ from 'jquery'
 import { ReactElement } from "react";
+import emailjs from '@emailjs/browser';
+// import emailjs from "emailjs-com";
+
 
 let box_backetVal;
 
