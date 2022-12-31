@@ -4,7 +4,6 @@ import $ from 'jquery'
 import saleImg from '../AllTree/sale.png'
 import jQuery from "jquery";
 import arrTovar from '../Base/Tovars/Tovars'
-import { RenderProps } from "tippy.js";
 
 let arr = JSON.parse(localStorage.getItem('arr')) || [];
 let numb_tovars = JSON.parse(localStorage.getItem('numb_')) || 0;
