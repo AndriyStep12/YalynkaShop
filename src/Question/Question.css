@@ -1,0 +1,186 @@
+.FormBoxHead{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input,
+form textarea{
+    width: 450px;
+    padding: 1px 10px;
+    margin: 10px 0;
+    background-color: none;
+    background: none;
+    border: 2px dotted rgb(255, 255, 0);
+    color: #fff;
+    outline: none;
+}
+
+form input{
+    height: 50px;
+}
+
+.boxSend{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.boxSend img{
+    width: 350px;
+}
+
+#send{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(195, 0, 255);
+}
+
+.btn{
+    width: 200px;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.tog{
+    width: 80%;
+}
+
+.tog h2{
+    /* font-size: 25px; */
+    color: #fff;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.text-box{
+    background-color: none;
+    background: none;
+    border: 5px dotted rgb(0, 195, 255);
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+textarea{
+    resize: none;
+}
+
+@media screen and (max-width: 845px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tog{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 557px) {
+    .tog h2{
+        font-size: 35px;
+        width: 350px;
+    }
+
+    #nameI,
+    #emailI,
+    #phoneI,
+    #passI,
+    #formText{
+        width: 350px;
+    }
+}

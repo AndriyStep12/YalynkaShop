@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+span {
+    cursor: pointer;
+}
+
+.header{
+    width: 100%;
+    height: 20vh;
+    background-color: none;
+    position: relative;
+    z-index: 200;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* background-color: #fff; */
+}
+
+.span_button{
+    margin: 0 30px;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.span_buttons{
+    font-size: 35px;
+    margin: 20px 0;
+    background: none;
+    background-color: none;
+    border: none;
+}
+
+.bit{
+    display: flex;
+    height: 15vh;
+    background-color: #fff;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.logoImg{
+    height: 13vh;
+}
+
+button{
+    cursor: pointer;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    padding-right: 10px;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+}
+
+.span-text{
+    margin: 0 20px;
+}
+
+.header{
+    /* background-color: #fff; */
+}
+
+.logoType{
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    align-items: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 40px;
+}
+
+#burgerButton{
+    display: none;
+}
+
+.lockDown{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 85vh; */
+    /* display: none; */
+}
+
+.shLogo{
+    color: rgb(255, 89, 0);
+}
+
+#fourth{
+    margin-right: 100px;
+}
+
+.custom-shape-divider-top-1672058157 {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1672058157 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+}
+
+.custom-shape-divider-top-1672058157 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.w100{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Ytree{
+    transform: rotate(180deg);
+    height: 65px;
+}
+
+.boxHeadTextImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* padding-top: 20px; */
+    margin-left: 40px;
+}
+
+.boxHeadTextImg p{
+    margin: 0;
+    padding: 0;
+}
+
+/* span_button */
+
+.burger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+.burger_line{
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    /* margin: 10px 0; */
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 950px) {
+    .span_button{
+        display: none;
+    }
+
+    .burger{
+        display: flex;
+    }
+
+    #burgerButton{
+        display: none;
+    }
+}

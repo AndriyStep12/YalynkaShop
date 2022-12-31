@@ -1,0 +1,8 @@
+Hello {{to_name}},
+
+You got a new message from YalynkaShop:
+
+Hello from YalynkaShop. Your package is going to you. You order {{to_types}} types of Christmas Tree, {{to_products}}. To pay {{to_pay}}. You can pay it when it comes. Have a nice day, GLORY TO UKRAINE!
+
+Best wishes,
+YalynkaShop team

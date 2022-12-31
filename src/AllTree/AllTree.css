@@ -1,0 +1,267 @@
+.alltreeBase {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+#addBucketId{
+  width: 165px;
+  height: 60px;
+  margin-top: 10px;
+  background-color: rgb(255, 178, 178);
+  display: flex;
+  /* border: 6px dotted red; */
+  border: none;
+  outline:6px dotted red;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: 'Mountains of Christmas', cursive;
+  border-radius: 2px;
+}
+
+.box_tree {
+  width: 90%;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  margin: 50px 1%;
+  background-image: url(./sale.png);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  /* border: 2px solid #fff; */
+  transition: 1s;
+}
+
+.left-side {
+  /* width: 60%; */
+  height: 100%;
+  width: 30%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side .saleImage {
+  height: 90%;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  /* height: 100%;*/
+  /* width: 40%; */
+  /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;  */
+}
+
+.local {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  height: 100%;
+}
+
+.hidenBox {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.right-side span {
+  font-size: 30px;
+  color: #333;
+}
+
+.hidenBox {
+  display: flex;
+}
+
+
+#addBucketId {
+  width: 200px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: #fff;
+  height: 60px;
+  border: 2px solid #555;
+  background-color: rgba(255, 75, 75, 0.814);
+  transition: 1s;
+}
+
+/* 
+.addBucketClass:hover{
+    
+} */
+
+.quantity {
+  position: relative;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.quantity input {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  line-height: 1.65;
+  float: left;
+  /* display: block; */
+  padding: 0;
+  margin: 0;
+  background: none;
+  color: #333;
+  padding-left: 20px;
+  border: 2px solid #333;
+  margin-left: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  float: left;
+  position: relative;
+  height: 42px;
+}
+
+.quantity-button {
+  position: relative;
+  cursor: pointer;
+  border-left: 2px solid #333;
+  width: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 13px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  line-height: 1.7;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.quantity-button.quantity-up {
+  position: absolute;
+  height: 50%;
+  top: 0;
+  border-bottom: 2px solid #333;
+}
+
+.quantity-button.quantity-down {
+  position: absolute;
+  bottom: -1px;
+  height: 50%;
+}
+
+input {
+  width: 100px;
+}
+
+.hb {
+  display: flex;
+  flex-direction: column;
+}
+
+.hb {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.boxyy {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.quantity-button {
+  color: #333;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 861px) {
+  .box_tree span{
+    font-size: 25px;
+  }
+
+  .hb{
+    font-size: 20px;
+  }
+
+  .boxyy{
+    align-items: center;
+  }
+
+  .box_tree .right-side{
+    margin-left: 0;
+    padding: 0 ;
+  }
+
+}
+
+@media screen and (max-width: 735px) {
+
+  .box_tree{
+    flex-direction: column;
+    height: 500px;
+  }
+
+  .box_tree .saleImage {
+    height: 80%;
+  }
+
+  .right-side,
+  .left-side{
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .local{
+    margin-right: 10%;
+    width: 50%;
+    height: 100%;
+  }
+
+  .local span{
+    font-size: 20px;
+  }
+
+  .right-side{
+    width: 100%;
+  }
+
+  .local span{
+    width: 100%;
+  }
+
+}

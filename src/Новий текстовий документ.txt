@@ -1,0 +1,85 @@
+<div className="alltreeBase">
+                <div className="row row-cols-1">
+                    <div className="box_tree">
+                        <div className="linkImg">
+                            <div className="linkText">
+                                <span className="sp" id="name">Name</span>
+                                <span className="sp" id="price">Price</span>
+                                <span className="sp" id="place">Place</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="box_tree">
+                        <div className="linkImg">
+                            <div className="linkText">
+                                <span className="sp" id="name">Name</span>
+                                <span className="sp" id="price">Price</span>
+                                <span className="sp" id="place">Place</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="box_tree">
+                        <div className="linkImg">
+                            <div className="linkText">
+                                <span className="sp" id="name">Name</span>
+                                <span className="sp" id="price">Price</span>
+                                <span className="sp" id="place">Place</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="box_tree">
+                        <div className="linkImg">
+                            <div className="linkText">
+                                <span className="sp" id="name">Name</span>
+                                <span className="sp" id="price">Price</span>
+                                <span className="sp" id="place">Place</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="box_tree">
+                        <div className="linkImg">
+                            <div className="linkText">
+                                <span className="sp" id="name">Name</span>
+                                <span className="sp" id="price">Price</span>
+                                <span className="sp" id="place">Place</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="box_tree">
+                        <div className="linkImg">
+                            <div className="linkText">
+                                <span className="sp" id="name">Name</span>
+                                <span className="sp" id="price">Price</span>
+                                <span className="sp" id="place">Place</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="box_tree">
+                        <div className="linkImg">
+                            <div className="linkText">
+                                <span className="sp" id="name">Name</span>
+                                <span className="sp" id="price">Price</span>
+                                <span className="sp" id="place">Place</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="box_tree">
+                        <div className="linkImg">
+                            <div className="linkText">
+                                <span className="sp" id="name">Name</span>
+                                <span className="sp" id="price">Price</span>
+                                <span className="sp" id="place">Place</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="box_tree">
+                        <div className="linkImg">
+                            <div className="linkText">
+                                <span className="sp" id="name">Name</span>
+                                <span className="sp" id="price">Price</span>
+                                <span className="sp" id="place">Place</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>

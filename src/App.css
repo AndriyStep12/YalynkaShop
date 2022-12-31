@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #FF7171;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 1275px) {
+  .boxInsideTwo{
+    font-size: 15px;
+    width: 90%;
+  }
+
+  #row-reverse .right-side,
+  #row-reverse .left-side,
+  #row .right-side,
+  #row .left-side{
+    width: 50%;
+  }
+}
+
