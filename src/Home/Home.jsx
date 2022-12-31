@@ -32,8 +32,6 @@ function Home (){
             backDelay: 2000,
         })
 
-        AOS.init();
-
     })
 
     return(
