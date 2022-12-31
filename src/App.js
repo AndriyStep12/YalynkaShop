@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 import $ from "jquery";
 import { TypedOptions } from 'typed.js';
-import ReactTyped from 'react-typed';
 import { useEffect, useRef } from "react";
 
 import './App.css';
