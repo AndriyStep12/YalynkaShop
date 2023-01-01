@@ -56,7 +56,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px dotted rgb(133, 112, 255);
+    border: 4px dotted rgb(133, 112, 255);
     border-radius: 10px;
     background-color: rgb(247, 255, 103);
     position: relative;
