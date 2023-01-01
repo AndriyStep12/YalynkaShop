@@ -73,6 +73,7 @@ class Header extends Component {
                                 $(lookDown).css("height", "85vh")
                                 $(linesTwo).css("display", "none")
                                 $(linesOne).css("transform", "rotate(45deg)")
+                                $(linesOne).css("margin-bottom", "-5px")
                                 $(linesThree).css("transform", "rotate(-45deg)")
                                 $(linesThree).css("top", "-50px")
                                 setTimeout(function(){
@@ -87,6 +88,7 @@ class Header extends Component {
                                 $(linesTwo).css("display", "flex")
                                 $(linesOne).css("transform", "rotate(0deg)")
                                 $(linesThree).css("transform", "rotate(0deg)")
+                                $(linesOne).css("margin-bottom", "0")
                                 $(linesThree).css("top", "-0")
                                 // setTimeout(function(){
                                     $(span_buttones).css("display", "none")
