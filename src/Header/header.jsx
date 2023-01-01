@@ -64,7 +64,9 @@ class Header extends Component {
                             // let lookDownLet = document.getElementById("lookDown");
                             let span_buttones = document.getElementsByClassName("span_buttons")
                             let rooty = document.getElementsByClassName("root")
+                            let headerJS = document.getElementById("header")
                             if (click == false){
+                                $(headerJS).css("transition", "1s")
                                 $(lookDown).css("height", "85vh")
                                 $(linesTwo).css("display", "none")
                                 $(linesOne).css("transform", "rotate(45deg)")
@@ -76,6 +78,7 @@ class Header extends Component {
                                 $(rooty).css("overflow-y", "hidden")
                                 click = true;
                             } else if (click == true){
+                                $(headerJS).css("transition", "1s")
                                 $(lookDown).css("height", "0vh")
                                 $(linesTwo).css("display", "flex")
                                 $(linesOne).css("transform", "rotate(0deg)")
