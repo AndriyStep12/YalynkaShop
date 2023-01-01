@@ -26,6 +26,7 @@ function BucketForm () {
 
         let element = document.getElementsByClassName("boxEmail");
         let boxBucket = document.getElementById("boxBucket");
+        let boxBucketBuck = document.getElementById("buck");
         // let boxBucketEmail = document.getElementById("boxBucket");
 
         const form = useRef();
@@ -51,7 +52,7 @@ function BucketForm () {
         
 
         return(
-            <div className="buck">
+            <div className="buck" id="buck">
                 <div className="boxBucket" id="boxBucket">
                     <div className="head">
                         <h2>Your Cart</h2>
@@ -68,6 +69,7 @@ function BucketForm () {
                         <button className="delete" onClick={function(){
                             $(element).css("top", "0vh")
                             $(boxBucket).css("z-index", "1000")
+                            $(boxBucketBuck).css("z-index", "1000")
                         }}>Buy</button>
                     </div>
                 </div>
