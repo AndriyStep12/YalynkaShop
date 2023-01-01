@@ -67,6 +67,7 @@ class Header extends Component {
                             let headerJS = document.getElementById("header")
                             if (click == false){
                                 $(headerJS).css("transition", "1s")
+                                $(lookDown).css("transition", "1s")
                                 $(lookDown).css("height", "85vh")
                                 $(linesTwo).css("display", "none")
                                 $(linesOne).css("transform", "rotate(45deg)")
