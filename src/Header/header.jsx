@@ -50,8 +50,8 @@ class Header extends Component {
                     <div className='logoType' id='logoType'>
                         <img src={mainImage} alt='logo_tree' className='logoImg' />
                         <div className="boxHeadTextImg">
-                            <img src={YTree} className="Ytree" alt="Y" />
-                            <p>alynkaShop</p>
+                            {/* <img src={YTree} className="Ytree" alt="Y" /> */}
+                            <p>YalynkaShop</p>
                         </div>
                 </div>
                 <div className='infoType'>
