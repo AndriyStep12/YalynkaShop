@@ -87,13 +87,15 @@
     width: 100%;
     height: 100vh;
     position: fixed;
-    background-color: rgba(0, 255, 106, 0.238);
+    background-color: rgba(255, 255, 255, 0.575);
     /* top: -100vh; */
     top: 0vh;
     z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 1000;
 }
 
 .box-email{
@@ -102,11 +104,13 @@
     justify-content: center;
     align-items: center;
     height: 600px;
-    background-color: #fff;
+    background-color: rgb(255, 83, 83);
     border-radius: 20px;
     padding: 10px 30px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    z-index: 1000;
 }
 
 .box-email input{

@@ -26,6 +26,7 @@ function BucketForm () {
 
         let element = document.getElementsByClassName("boxEmail");
         let boxBucket = document.getElementById("boxBucket");
+        // let boxBucketEmail = document.getElementById("boxBucket");
 
         const form = useRef();
 
@@ -65,9 +66,8 @@ function BucketForm () {
                             document.location.reload();
                         }}>Delete all</button>
                         <button className="delete" onClick={function(){
-                            
                             $(element).css("top", "0vh")
-                            $(boxBucket).css("z-index", "5")
+                            $(boxBucket).css("z-index", "1000")
                         }}>Buy</button>
                     </div>
                 </div>
