@@ -119,7 +119,7 @@
     padding: 0 10px;
     /* background-color: rgb(165, 165, 165); */
     color: #000;
-    border: 2px solid rgb(109, 118, 255);
+    border: 2px solid rgb(251, 251, 251);
     border-radius: 5px;
     outline: none;
 }
@@ -127,7 +127,8 @@
 #sendy{
     width: 200px;
     height: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color: none;
+    background: none;
     border-radius: 10px;
     border: 5px dotted rgb(109, 118, 255);
     font-size: 25px;
