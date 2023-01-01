@@ -92,7 +92,7 @@ function BucketForm () {
                                 // document.location.reload();
                                 alert("Sent successfully. Check your Gmail")
                                 localStorage.clear();
-                                document.location.reload();
+                                // document.location.reload();
                             }} />
                             <button  id="sendy" onClick={function(){
                                 
