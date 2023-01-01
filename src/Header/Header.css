@@ -93,6 +93,7 @@ button{
     background-color: #fff;
     width: 100%;
     color: #000;
+    height: 0vh;
     display: flex;
     justify-content: center;
     align-items: center;
