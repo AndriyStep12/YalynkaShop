@@ -56,9 +56,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px dotted rgb(47, 255, 0);
+    border: 2px dotted rgb(133, 112, 255);
     border-radius: 10px;
-    background-color: magenta;
+    background-color: rgb(247, 255, 103);
     position: relative;
     z-index: 30;
 }
