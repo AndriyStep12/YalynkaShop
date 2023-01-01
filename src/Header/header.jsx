@@ -88,7 +88,7 @@ class Header extends Component {
                                 $(linesTwo).css("display", "flex")
                                 $(linesOne).css("transform", "rotate(0deg)")
                                 $(linesThree).css("transform", "rotate(0deg)")
-                                $(linesOne).css("margin-bottom", "0")
+                                $(linesOne).css("margin-bottom", "5px")
                                 $(linesThree).css("top", "-0")
                                 // setTimeout(function(){
                                     $(span_buttones).css("display", "none")
