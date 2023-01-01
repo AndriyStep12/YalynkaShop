@@ -17,6 +17,16 @@ let informationHome = [
         imageUrl: 'https://www.wework.com/ideas/wp-content/uploads/sites/4/2017/06/Web_150DPI-20190927_10th_Floor_Conference_Room_2_v1-1120x630.jpg',
         dataInfo: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint aliquam omnis cum ad ipsum dignissimos. Sequi labore error veritatis doloremque vero numquam quas quaerat eius, pariatur cumque. Aperiam voluptates nam eius quos fugit accusantium enim ipsum! Pariatur alias sit voluptates, repudiandae voluptas itaque voluptatum dolor inventore nobis. Quaerat assumenda ullam labore. Asperiores autem, id doloribus, delectus atque aperiam deleniti minima sapiente iste dolor ratione labore quia facilis aliquam, vero similique? Eaque excepturi alias mollitia consequuntur iure nihil architecto, reiciendis facilis dolorem necessitatibus harum impedit repellat similique. Nulla voluptatum magnam blanditiis omnis vel, sapiente fuga totam accusamus debitis placeat enim. Ullam?`
     }
-]
+];
+
+let creator_info = {
+    name: 'Andriy',
+    sename: 'Stepaniak',
+    github: 'https://github.com/AndriyStep12',
+    portfolio: 'https://andriystepaniak.netlify.app/',
+    email: 'andystep2008@gmail.com',
+    country: 'UA',
+    city: 'Novoyavorivsk'
+};
 
 export default informationHome;

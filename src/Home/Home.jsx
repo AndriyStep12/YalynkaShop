@@ -35,7 +35,7 @@ function Home (){
             {/* {actionArr.map(item => <BoxProps key={item} nameAction={item.nameAction} description={item.description} />)} */}
             <div className="box_CenterHome">
                 <div className="wydno">
-                    <div className="textZn" id="textZn">Do you want to buy Christmas <span ref={el}></span><span id='hiding'>🎄</span></div>
+                    <div className="textZn" id="textZn">Do you want to buy Christmas <span ref={el}></span></div>
                     <button className='clickHere' onClick={function(){
                         document.location.href = window.location.pathname + '#' + 'Trees';
                         document.location.reload();
