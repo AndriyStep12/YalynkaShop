@@ -68,7 +68,7 @@ class Header extends Component {
                             let headerJS = document.getElementById("header")
                             if (click == false){
                                 $(headerJS).css("transition", "1s")
-                                $(AppFunc).css("overflow-y", "hidden")
+                                $(headerJS).css("z-index", "100000000")
                                 $(lookDown).css("transition", "1s")
                                 $(lookDown).css("height", "85vh")
                                 $(linesTwo).css("display", "none")
@@ -84,6 +84,7 @@ class Header extends Component {
                             } else if (click == true){
                                 $(headerJS).css("transition", "1s")
                                 $(AppFunc).css("overflow-y", "scroll")
+                                $(headerJS).css("z-index", "100")
                                 $(lookDown).css("height", "0vh")
                                 $(linesTwo).css("display", "flex")
                                 $(linesOne).css("transform", "rotate(0deg)")
