@@ -14,9 +14,6 @@ import PropsBoxInfo from './PropsBoxHome/PropsBoxHome'
 
 function Home (){
 
-    
-
-
     const el = useRef(null)
 
     useEffect(() => {
@@ -39,7 +36,7 @@ function Home (){
             <div className="box_CenterHome">
                 <div className="wydno">
                     <div className="textZn" id="textZn">Do you want to buy Christmas <span ref={el}></span></div>
-                    <button className="ripple-button" onClick={function(){
+                    <button className='clickHere' onClick={function(){
                         document.location.href = window.location.pathname + '#' + 'Trees';
                         document.location.reload();
                     }}>Click here</button>
