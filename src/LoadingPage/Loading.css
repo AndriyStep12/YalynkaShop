@@ -47,6 +47,7 @@
     margin-left: -50px;
     z-index: 0;
     animation: 8s infinite animateTree;
+    animation-iteration-count: 2;
 }
 
 @keyframes animateTree{
