@@ -34,42 +34,28 @@ class App extends Component {
   
   render(){
 
-    // let headJS = document.getElementById("HeadJS")
-    // let snowyyyJS = document.getElementById("snowyyy")
-
-    // $(headJS).css("display", "none")
-    // $(snowyyyJS).css("display", "none")
-
-    // appBox = <ScreenLoad/>;
-    // useEffect(() => {
-      // setTimeout(function(){
-        $(headJS).css("display", "flex")
-        $(snowyyyJS).css("display", "flex")
-        if (document.location.href == 'https://yalynka-shop.vercel.app/#Cart'){
-          appBox = <Cart/>
-          helloApp = '';
-        } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Feedback'){
-          appBox = <Formy/>
-          helloApp = '';
-        } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Trees'){
-          appBox = <AllTree/>
-          // helloApp = <BodyCenter/>;
-        } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Home'){
-          appBox = <HomePage />
-          helloApp = '';
-        } else if (document.location.href == 'https://yalynka-shop.vercel.app/'){
-          appBox = <HomePage />
-          helloApp = '';
-        }
-      // }, 16000)
-    // }, []);
-
+    if (document.location.href == 'https://yalynka-shop.vercel.app/#Cart'){
+      appBox = <Cart/>
+      helloApp = '';
+    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Feedback'){
+      appBox = <Formy/>
+      helloApp = '';
+    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Trees'){
+      appBox = <AllTree/>
+      // helloApp = <BodyCenter/>;
+    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Home'){
+      appBox = <HomePage />
+      helloApp = '';
+    } else if (document.location.href == 'https://yalynka-shop.vercel.app/'){
+      appBox = <HomePage />
+      helloApp = '';
+    }
 
     return (
       <div className="App" id='App'>
         {/* <ScreenLoad/> */}
-        <Snowy id="snowyyy"/>
-        <Head id="HeadJS"/>
+        <Snowy/>
+        <Head/>
         {helloApp}
         {appBox}
       </div>
