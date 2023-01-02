@@ -16,7 +16,7 @@ function LoadingScreen (){
         $(document.body).css("overflow-y", "scroll")
         let loadPage = document.getElementById("loadScreen")
         $(loadPage).css("top", "-100vh")
-    }, 16000)
+    }, 9000)
 
     return(
         <div id='loadScreen' className="loadScreen">

@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    z-index: 10000000000;
+    z-index: 100000000000000000;
     transition: 1s;
     top: 0;
     left: 0;
@@ -28,7 +28,7 @@
     align-items: center;
     animation: 8s infinite animateCar;
     transition: 1s;
-    z-index: 10000000000;
+    z-index: 100000000000000;
 }
 
 .box-treePng img{
