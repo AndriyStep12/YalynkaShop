@@ -39,7 +39,7 @@ function Home (){
                     <button className='clickHere' onClick={function(){
                         document.location.href = window.location.pathname + '#' + 'Trees';
                         document.location.reload();
-                    }}><span>Click here</span><i></i></button>
+                    }}><span>🎄Click here🎄</span><i></i></button>
                 </div>
             </div>
             <div className="nextBox">
