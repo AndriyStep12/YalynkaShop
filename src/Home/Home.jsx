@@ -14,6 +14,29 @@ import PropsBoxInfo from './PropsBoxHome/PropsBoxHome'
 
 function Home (){
 
+    const rippleButton = document.querySelector(".ripple-button");
+
+    function mousePositionToCustomProp(event, element) {
+        let posX = event.offsetX;
+        let posY = event.offsetY;
+
+        element.style.setProperty("--x", posX + "px");
+        element.style.setProperty("--y", posY + "px");
+    }
+
+    rippleButton.addEventListener("click", (e) => {
+        mousePositionToCustomProp(e, rippleButton);
+        rippleButton.classList.add("pulse");
+        rippleButton.addEventListener(
+        "animationend",
+        () => {
+            rippleButton.classList.remove("pulse");
+        },
+        { once: true }
+        );
+    });
+
+
     const el = useRef(null)
 
     useEffect(() => {
@@ -36,7 +59,7 @@ function Home (){
             <div className="box_CenterHome">
                 <div className="wydno">
                     <div className="textZn" id="textZn">Do you want to buy Christmas <span ref={el}></span></div>
-                    <button className='clickHere' onClick={function(){
+                    <button className="ripple-button" onClick={function(){
                         document.location.href = window.location.pathname + '#' + 'Trees';
                         document.location.reload();
                     }}>Click here</button>
