@@ -15,7 +15,7 @@ function LoadingScreen (){
     setTimeout(function(){
         $(document.body).css("overflow-y", "scroll")
         let loadPage = document.getElementById("loadScreen")
-        $(loadPage).css("display", "none")
+        $(loadPage).css("top", "-100vh")
     }, 16000)
 
     return(
