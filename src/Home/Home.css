@@ -129,52 +129,6 @@
     padding: 0 30px;
 }
 
-.ripple-button {
-    display: inline-grid;
-    place-items: center;
-    position: relative;
-    isolation: isolate;
-    appearance: none;
-    cursor: pointer;
-    font-size: 3rem;
-    padding: 1em 3em;
-    text-transform: uppercase;
-    background-color: transparent;
-    color: hsl(200 100% 65%);
-    border: 5px solid currentColor;
-    border-radius: 0.125em;
-    overflow: hidden;
-  }
-  
-  .ripple-button::before {
-    content: "";
-    position: absolute;
-    top: var(--y);
-    left: var(--x);
-    transform: translate(-50%, -50%) scale(0);
-    transition: transform 750ms;
-    z-index: -1;
-    width: 150%;
-    aspect-ratio: 1 / 1;
-    border-radius: 50%;
-    background: #fff;
-    opacity: 0.5;
-  }
-  
-  .pulse::before {
-    animation: pulse 500ms;
-  }
-  
-  @keyframes pulse {
-    0% {
-      transform: translate(-50%, -50%) scale(0);
-      opacity: 0.5;
-    }
-    100% {
-      transform: translate(-50%, -50%) scale(1);
-      opacity: 0;
-    }
-  }
 
 @media screen and (max-width: 1170px) {
 
