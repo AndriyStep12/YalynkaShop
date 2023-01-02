@@ -9,33 +9,17 @@ import tree from './tree.png'
 
 
 function LoadingScreen (){
-
-    let loadScreen = <div id='loadScreen' className="loadScreen">
-                        <div className="razom">
-                            <div className="box-carPng">
-                                <img src={car} alt="" />
-                            </div>
-                            <div className="box-treePng">
-                                <img src={tree} alt="" />
-                            </div>
-                        </div>
-                    </div>;
-    setTimeout(function(){
-        loadScreen = '';
-    }, 16000)
-
     return(
-        // <div id='loadScreen' className="loadScreen">
-        //     <div className="razom">
-        //         <div className="box-carPng">
-        //             <img src={car} alt="" />
-        //         </div>
-        //         <div className="box-treePng">
-        //             <img src={tree} alt="" />
-        //         </div>
-        //     </div>
-        // </div>
-        {loadScreen}
+        <div id='loadScreen' className="loadScreen">
+            <div className="razom">
+                <div className="box-carPng">
+                    <img src={car} alt="" />
+                </div>
+                <div className="box-treePng">
+                    <img src={tree} alt="" />
+                </div>
+            </div>
+        </div>
     )
 }
 

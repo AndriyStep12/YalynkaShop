@@ -34,28 +34,40 @@ class App extends Component {
   
   render(){
 
-    if (document.location.href == 'https://yalynka-shop.vercel.app/#Cart'){
-      appBox = <Cart/>
-      helloApp = '';
-    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Feedback'){
-      appBox = <Formy/>
-      helloApp = '';
-    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Trees'){
-      appBox = <AllTree/>
-      // helloApp = <BodyCenter/>;
-    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Home'){
-      appBox = <HomePage />
-      helloApp = '';
-    } else if (document.location.href == 'https://yalynka-shop.vercel.app/'){
-      appBox = <HomePage />
-      helloApp = '';
-    }
+    let headJS = document.getElementById("HeadJS")
+    let snowyyyJS = document.getElementById("snowyyy")
+
+    $(headJS).css("display", "none")
+    $(snowyyyJS).css("display", "none")
+
+    appBox = <ScreenLoad/>;
+
+    setTimeout(function(){
+      $(headJS).css("display", "flex")
+      $(snowyyyJS).css("display", "flex")
+      if (document.location.href == 'https://yalynka-shop.vercel.app/#Cart'){
+        appBox = <Cart/>
+        helloApp = '';
+      } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Feedback'){
+        appBox = <Formy/>
+        helloApp = '';
+      } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Trees'){
+        appBox = <AllTree/>
+        // helloApp = <BodyCenter/>;
+      } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Home'){
+        appBox = <HomePage />
+        helloApp = '';
+      } else if (document.location.href == 'https://yalynka-shop.vercel.app/'){
+        appBox = <HomePage />
+        helloApp = '';
+      }
+    }, 16000)
 
     return (
       <div className="App" id='App'>
-        <ScreenLoad/>
-        <Snowy/>
-        <Head/>
+        {/* <ScreenLoad/> */}
+        <Snowy id="snowyyy"/>
+        <Head id="HeadJS"/>
         {helloApp}
         {appBox}
       </div>
