@@ -16,7 +16,7 @@ import AllTree from './AllTree/AllTree'
 import Formy from './Question/Question'
 import Cart from './Bucket/BucketForm'
 import HomePage from './Home/Home'
-import ScreenLoad from './LoadingPage/Loading'
+import ScreenLoadForm from './LoadingPage/Loading'
 
 let arr = JSON.parse(localStorage.getItem('arr')) || []
 let numb_tovars = JSON.parse(localStorage.getItem('numb_')) || 0; 
@@ -29,8 +29,9 @@ let helloApp;
 // }
 
 class App extends Component {
+  componentDidMount(){
 
-  
+  }
   
   render(){
 
@@ -53,7 +54,7 @@ class App extends Component {
 
     return (
       <div className="App" id='App'>
-        <ScreenLoad/>
+        <ScreenLoadForm/>
         <Snowy/>
         <Head/>
         {helloApp}
