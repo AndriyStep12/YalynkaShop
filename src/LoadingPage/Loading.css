@@ -73,6 +73,7 @@
 @keyframes animateCar{
     0%{
         margin-left: -100%;
+        display: flex;
         transition: 1s;
     }
 
@@ -93,6 +94,7 @@
 
     100%{
         margin-left: 115%;
+        display: none;
         transition: 1s;
     }
 }
