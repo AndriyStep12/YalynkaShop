@@ -9,6 +9,11 @@ import tree from './tree.png'
 
 
 function LoadingScreen (){
+
+    setTimeout(function(){
+        alert('dsf')
+    }, 1000)
+
     return(
         <div id='loadScreen' className="loadScreen">
             <div className="razom">
