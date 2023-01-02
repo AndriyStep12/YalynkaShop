@@ -36,7 +36,7 @@ function Home (){
             <div className="box_CenterHome">
                 <div className="wydno">
                     <div className="textZn" id="textZn">Do you want to buy Christmas <span ref={el}></span></div>
-                    <button style={"--color: rgb(0, 237, 100)"} className='clickHere' onClick={function(){
+                    <button className='clickHere' onClick={function(){
                         document.location.href = window.location.pathname + '#' + 'Trees';
                         document.location.reload();
                     }}><span>Click here</span><i></i></button>
