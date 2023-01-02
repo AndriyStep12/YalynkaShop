@@ -11,8 +11,9 @@ import tree from './tree.png'
 function LoadingScreen (){
 
     setTimeout(function(){
-        alert('dsf')
-    }, 1000)
+        let loadPage = document.getElementById("loadScreen")
+        $(loadPage).css("display", "none")
+    }, 5000)
 
     return(
         <div id='loadScreen' className="loadScreen">
