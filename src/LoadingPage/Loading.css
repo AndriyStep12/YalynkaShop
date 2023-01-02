@@ -8,10 +8,11 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    transition: 1s;
     position: fixed;
     z-index: 10000000000;
     transition: 1s;
+    top: 0;
+    left: 0;
 }
 
 .razom{
