@@ -53,7 +53,7 @@ class App extends Component {
 
     return (
       <div className="App" id='App'>
-        {/* <ScreenLoad/> */}
+        <ScreenLoad/>
         <Snowy/>
         <Head/>
         {helloApp}
