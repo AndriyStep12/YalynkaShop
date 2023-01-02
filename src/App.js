@@ -34,15 +34,15 @@ class App extends Component {
   
   render(){
 
-    let headJS = document.getElementById("HeadJS")
-    let snowyyyJS = document.getElementById("snowyyy")
+    // let headJS = document.getElementById("HeadJS")
+    // let snowyyyJS = document.getElementById("snowyyy")
 
-    $(headJS).css("display", "none")
-    $(snowyyyJS).css("display", "none")
+    // $(headJS).css("display", "none")
+    // $(snowyyyJS).css("display", "none")
 
-    appBox = <ScreenLoad/>;
-    useEffect(() => {
-      setTimeout(function(){
+    // appBox = <ScreenLoad/>;
+    // useEffect(() => {
+      // setTimeout(function(){
         $(headJS).css("display", "flex")
         $(snowyyyJS).css("display", "flex")
         if (document.location.href == 'https://yalynka-shop.vercel.app/#Cart'){
@@ -61,8 +61,8 @@ class App extends Component {
           appBox = <HomePage />
           helloApp = '';
         }
-      }, 16000)
-    }, []);
+      // }, 16000)
+    // }, []);
 
 
     return (
