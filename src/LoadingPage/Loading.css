@@ -4,12 +4,13 @@
     position: relative;
     display: flex;
     background-color: #fff;
-    z-index: 10;
+    z-index: 9999999999999999999999999;
     background-color: #FF7171;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     transition: 1s;
+    position: fixed;
 }
 
 .razom{
