@@ -10,7 +10,7 @@
     align-items: center;
     transition: 1s;
     position: fixed;
-    z-index: 9999999999999999999999999;
+    z-index: 10000000000;
 }
 
 .razom{
@@ -26,7 +26,7 @@
     align-items: center;
     animation: 8s infinite animateCar;
     transition: 1s;
-    z-index: 9999999999999999999999999;
+    z-index: 10000000000;
 }
 
 .box-treePng img{
