@@ -26,6 +26,7 @@
     align-items: center;
     animation: 8s infinite animateCar;
     transition: 1s;
+    z-index: 9999999999999999999999999;
 }
 
 .box-treePng img{
