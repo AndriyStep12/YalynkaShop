@@ -10,16 +10,7 @@ import tree from './tree.png'
 
 function Load (){
     return(
-        <div id='loadScreen' className="loadScreen">
-            <div className="razom">
-                <div className="box-carPng">
-                    <img src={car} alt="" />
-                </div>
-                <div className="box-treePng">
-                    <img src={tree} alt="" />
-                </div>
-            </div>
-        </div>
+        
     )
 }
 

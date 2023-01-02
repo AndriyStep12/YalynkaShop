@@ -6,21 +6,20 @@ import jQuery from 'jquery'
 import $ from 'jquery'
 import car from './car.png'
 import tree from './tree.png'
-import Load from './Load'
 
 
 function LoadingScreen (){
-
-    let loadGet = <Load/>
-
-    useEffect(() => {
-        setTimeout(function(){
-            loadGet = ''
-        }, 9000)
-    }, [])
-
     return(
-        {loadGet}
+        <div id='loadScreen' className="loadScreen">
+            <div className="razom">
+                <div className="box-carPng">
+                    <img src={car} alt="" />
+                </div>
+                <div className="box-treePng">
+                    <img src={tree} alt="" />
+                </div>
+            </div>
+        </div>
     )
 }
 
