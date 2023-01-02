@@ -10,10 +10,13 @@ import tree from './tree.png'
 
 function LoadingScreen (){
 
+    $(document.body).css("overflow-y", "hidden")
+
     setTimeout(function(){
+        $(document.body).css("overflow-y", "scroll")
         let loadPage = document.getElementById("loadScreen")
         $(loadPage).css("display", "none")
-    }, 5000)
+    }, 16000)
 
     return(
         <div id='loadScreen' className="loadScreen">
