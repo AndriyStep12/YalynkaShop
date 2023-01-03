@@ -37,7 +37,7 @@ function Home (){
                 <div className="wydno">
                     <div className="textZn" id="textZn">If you want to buy Christmas <span ref={el}></span></div>
                     <button className='clickHere' onClick={function(){
-                        document.location.href = window.location.pathname + '#' + 'Trees';
+                        document.location.href = window.location.pathname + '#' + 'Products';
                         document.location.reload();
                     }}><span>🎄Click here🎄</span><i></i></button>
                 </div>
