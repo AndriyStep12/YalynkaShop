@@ -26,7 +26,7 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    animation: 8s infinite animateCar;
+    animation: 4s infinite animateCar;
     transition: 1s;
     z-index: 100000000000000;
 }
@@ -49,7 +49,7 @@
     left: 50%;
     margin-left: -50px;
     z-index: 0;
-    animation: 8s infinite animateTree;
+    animation: 4s infinite animateTree;
 }
 
 @keyframes animateTree{
