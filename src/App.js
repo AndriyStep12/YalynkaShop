@@ -16,6 +16,7 @@ import AllTree from './AllTree/AllTree'
 import Formy from './Question/Question'
 import Cart from './Bucket/BucketForm'
 import HomePage from './Home/Home'
+import TypeProduct from './ProductsGet/ProductsType';
 import ScreenLoad from './LoadingPage/Loading'
 
 let arr = JSON.parse(localStorage.getItem('arr')) || []
@@ -40,7 +41,7 @@ class App extends Component {
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Feedback'){
       appBox = <Formy/>
       helloApp = '';
-    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Products'){
+    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Trees'){
       appBox = <AllTree/>
       // helloApp = <BodyCenter/>;
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Home'){
@@ -53,7 +54,8 @@ class App extends Component {
 
     return (
       <div className="App" id='App'>
-        <ScreenLoad/>
+        {/* <ScreenLoad/> */}
+        <TypeProduct/>
         <Snowy/>
         <Head/>
         {helloApp}

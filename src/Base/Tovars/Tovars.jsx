@@ -7,7 +7,8 @@ let tovars = [
         id: 0,
         inputNumb: 'input0',
         nameClass: 'name0',
-        urlPhoto: 'https://files.ub.ua/goods/goods-photos/468/190242_Alpine-99103194.jpg'
+        urlPhoto: 'https://files.ub.ua/goods/goods-photos/468/190242_Alpine-99103194.jpg',
+        type: 'Tree'
     },
     {
         name: 'ChristmasTree2',
@@ -17,7 +18,8 @@ let tovars = [
         id: 1,
         inputNumb: 'input1',
         nameClass: 'name1',
-        urlPhoto: 'https://www.plastmax.ua/-/uploads/ru/00/00/13/35/h-2426400761.jpg'
+        urlPhoto: 'https://www.plastmax.ua/-/uploads/ru/00/00/13/35/h-2426400761.jpg',
+        type: 'Tree'
     },
     {
         name: 'ChristmasTree3',
@@ -27,7 +29,8 @@ let tovars = [
         id: 2,
         inputNumb: 'input2',
         nameClass: 'name2',
-        urlPhoto: 'https://cdn.27.ua/799/2a/74/535156_8.jpeg'
+        urlPhoto: 'https://cdn.27.ua/799/2a/74/535156_8.jpeg',
+        type: 'Tree'
     },
     {
         name: 'ChristmasTree4',
@@ -37,7 +40,8 @@ let tovars = [
         id: 3,
         inputNumb: 'input3',
         nameClass: 'name3',
-        urlPhoto: 'https://images.prom.ua/1401016814_yalinka-shtuchna-zhozefina.jpg'
+        urlPhoto: 'https://images.prom.ua/1401016814_yalinka-shtuchna-zhozefina.jpg',
+        type: 'Tree'
     },
     {
         name: 'ChristmasTree5',
@@ -47,7 +51,8 @@ let tovars = [
         id: 4,
         inputNumb: 'input4',
         nameClass: 'name4',
-        urlPhoto: 'https://cdn.27.ua/sc--media--prod/default/d0/dc/0e/d0dc0edf-91b9-4aae-82a0-21ba71b5268b.jpg'
+        urlPhoto: 'https://cdn.27.ua/sc--media--prod/default/d0/dc/0e/d0dc0edf-91b9-4aae-82a0-21ba71b5268b.jpg',
+        type: 'Tree'
     }
 ];
 

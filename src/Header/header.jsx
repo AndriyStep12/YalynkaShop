@@ -116,9 +116,9 @@ class Header extends Component {
                     document.location.reload();
                 }} id='burgerButton'>Home</button>
                 <button className='span_buttons' onClick={function(e){
-                    document.location.href = window.location.pathname + '#' + 'Trees';
+                    document.location.href = window.location.pathname + '#' + 'Products';
                     document.location.reload();
-                }} id='burgerButton'>Trees</button>
+                }} id='burgerButton'>Products</button>
                 <button className='span_buttons' onClick={function(e){
                     document.location.href = window.location.pathname + '#' + 'Feedback';
                     document.location.reload();
