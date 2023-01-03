@@ -13,6 +13,7 @@ import Head from './Header/header';
 // import BodyCenter from './BodyCenter/BodyCenter'
 import Snowy from './Snowy/Snowy'
 import AllTree from './AllTree/AllTree'
+import AllGarlands from './AllGarlands/AllGarlands'
 import Formy from './Question/Question'
 import Cart from './Bucket/BucketForm'
 import HomePage from './Home/Home'
@@ -52,6 +53,9 @@ class App extends Component {
       helloApp = '';
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Products'){
       appBox = <TypeProduct/>
+      helloApp = '';
+    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Garlands'){
+      appBox = <AllGarlands/>
       helloApp = '';
     }
 
