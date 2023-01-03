@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+
+}
+
+::-webkit-scrollbar-track {
+  background: #ff7171;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(112, 255, 121);
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
 .App {
   width: 100%;
   min-height: 100vh;
