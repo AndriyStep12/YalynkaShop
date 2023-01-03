@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 import $ from 'jquery'
 import jQuery from "jquery";
-import toysArr from '../Base/Tovars/Garlands'
+import toysArr from '../Base/Tovars/Toys'
 import Box from '../Box/Box'
 
 let arr = JSON.parse(localStorage.getItem('arr')) || [];
