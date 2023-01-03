@@ -16,13 +16,13 @@
     border-radius: 10px;
     background-size: cover;
     background-position: center;
-    color: rgba(255, 255, 255, 0.463);
-    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.704);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
     font-family: 'Ubuntu', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 #boxTre{
