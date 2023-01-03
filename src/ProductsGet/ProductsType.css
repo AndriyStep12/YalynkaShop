@@ -37,3 +37,17 @@
 #boxGar{
     background-image: url(./girlyandy.webp);
 }
+
+@media screen and (max-width: 810px) {
+    .boxType{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .boxInType{
+        margin: 40px 0;
+        width: 80%;
+    }
+}
