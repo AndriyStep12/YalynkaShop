@@ -50,12 +50,15 @@ class App extends Component {
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/'){
       appBox = <HomePage />
       helloApp = '';
+    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Products'){
+      appBox = <TypeProduct/>
+      helloApp = '';
     }
 
     return (
       <div className="App" id='App'>
         {/* <ScreenLoad/> */}
-        <TypeProduct/>
+        {/* <TypeProduct/> */}
         <Snowy/>
         <Head/>
         {helloApp}

@@ -8,13 +8,22 @@ class TypeProduct extends Component{
     render(){
         return(
             <div className="boxType">
-                <div className="boxInType" id="boxTre">
-                    <img src="" alt="" />
+                <div className="boxInType" id="boxTre" onClick={function(){
+                    document.location.href = window.location.pathname + '#Trees';
+                    document.location.reload();
+                }}>
+                    
                 </div>
-                <div className="boxInType" id="boxToy">
+                <div className="boxInType" id="boxToy" onClick={function(){
+                    document.location.href = window.location.pathname + '#Toys';
+                    document.location.reload();
+                }}>
 
                 </div>
-                <div className="boxInType" id="boxGar">
+                <div className="boxInType" id="boxGar" onClick={function(){
+                    document.location.href = window.location.pathname + '#Garlands';
+                    document.location.reload();
+                }}>
 
                 </div>
             </div>
