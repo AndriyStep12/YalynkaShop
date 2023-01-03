@@ -18,7 +18,7 @@ function Home (){
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ["<span id='red'>trees</span>", "<span id='yellow'>toys</span>", "<span id='green'>garlands</span>", "<span id='blue'>presents</span>",],
+            strings: ["<span id='red'>trees</span>", "<span id='yellow'>toys</span>", "<span id='green'>garlands</span>"],
             smartBackspace: true, // this is a default
             showCursor: true,
             typeSpeed: 120,
