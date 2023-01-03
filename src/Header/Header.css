@@ -77,6 +77,7 @@ button{
 .logoType{
     display: flex;
     flex-direction: row;
+    cursor: pointer;
     color: #000;
     align-items: center;
     font-family: 'Kdam Thmor Pro', sans-serif;
