@@ -9,9 +9,11 @@
 }
 
 .boxInType{
-    width: 300px;
+    width: 30%;
     height: 500px;
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
 }
 
 #boxTre{
