@@ -40,7 +40,7 @@ class App extends Component {
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Feedback'){
       appBox = <Formy/>
       helloApp = '';
-    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Trees'){
+    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Products'){
       appBox = <AllTree/>
       // helloApp = <BodyCenter/>;
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Home'){
