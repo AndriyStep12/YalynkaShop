@@ -48,7 +48,10 @@ class Header extends Component {
         <div className='header' id='header'>
             <div className="lockUp">
                 <div className='bit' id='bit'>
-                    <div className='logoType' id='logoType'>
+                    <div className='logoType' onClick={function(){
+                        document.location.href = window.location.pathname + '#' + 'Home';
+                        document.location.reload();
+                    }} id='logoType'>
                         <img src={mainImage} alt='logo_tree' className='logoImg' />
                         <div className="boxHeadTextImg">
                             {/* <img src={YTree} className="Ytree" alt="Y" /> */}
