@@ -14,6 +14,7 @@ import Head from './Header/header';
 import Snowy from './Snowy/Snowy'
 import AllTree from './AllTree/AllTree'
 import AllGarlands from './AllGarlands/AllGarlands'
+import AllToys from './AllToys/AllToys'
 import Formy from './Question/Question'
 import Cart from './Bucket/BucketForm'
 import HomePage from './Home/Home'
@@ -57,12 +58,14 @@ class App extends Component {
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Garlands'){
       appBox = <AllGarlands/>
       helloApp = '';
+    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Toys'){
+      appBox = <AllToys/>
+      helloApp = '';
     }
 
     return (
       <div className="App" id='App'>
-        {/* <ScreenLoad/> */}
-        {/* <TypeProduct/> */}
+        <ScreenLoad/>
         <Snowy/>
         <Head/>
         {helloApp}
