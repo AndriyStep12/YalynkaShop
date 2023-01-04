@@ -10,7 +10,7 @@ class AllTree extends Component{
     render(){
         return(
             <div className="FormBoxHead">
-              <form action="https://formspree.io/f/mrgvznra" id="formy" method="POST">
+              <form action="https://formspree.io/f/mrgvznra" id="formyTwo" method="POST">
                 <div className="tog">
                   <h2>Please, write feedback about our web app</h2>
                   <input name="name" type="text" placeholder="Name and Sename" id="nameI" />
