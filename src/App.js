@@ -26,6 +26,9 @@ let numb_tovars = JSON.parse(localStorage.getItem('numb_')) || 0;
 
 let appBox;
 let helloApp;
+let oneType;
+let twoType;
+let thrType;
 
 // if (document.location.pathname == 'http://localhost:3000/'){
 //   alert('f')
@@ -40,27 +43,48 @@ class App extends Component {
     if (document.location.href == 'https://yalynka-shop.vercel.app/#Cart'){
       appBox = <Cart/>
       helloApp = '';
+      oneType = '';
+      twoType = '';
+      thrType = '';
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Feedback'){
       appBox = <Formy/>
       helloApp = '';
+      oneType = '';
+      twoType = '';
+      thrType = '';
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Trees'){
       appBox = <AllTree/>
       // helloApp = <BodyCenter/>;
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Home'){
       appBox = <HomePage />
       helloApp = '';
+      oneType = '';
+      twoType = '';
+      thrType = '';
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/'){
       appBox = <HomePage />
       helloApp = '';
+      oneType = '';
+      twoType = '';
+      thrType = '';
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Products'){
       appBox = <TypeProduct/>
+      oneType = <AllTree/>;
+      twoType = <AllGarlands/>;
+      thrType = <AllToys/>;
       helloApp = '';
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Garlands'){
       appBox = <AllGarlands/>
       helloApp = '';
+      oneType = '';
+      twoType = '';
+      thrType = '';
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Toys'){
       appBox = <AllToys/>
       helloApp = '';
+      oneType = '';
+      twoType = '';
+      thrType = '';
     }
 
     return (
