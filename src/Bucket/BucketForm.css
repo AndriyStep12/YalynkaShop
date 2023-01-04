@@ -134,10 +134,10 @@
     font-size: 25px;
 }
 
-#formy{
+/* #formy{
     display: flex;
     flex-direction: column;
-}
+} */
 
 .displayNone{
     display: none;
