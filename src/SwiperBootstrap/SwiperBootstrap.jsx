@@ -17,7 +17,7 @@ class SwiperB extends Component {
                 {actArr.map(item => <li data-target="#carouselExampleIndicators" data-slide-to={item} className={item.activeStan}></li>)}
             </ol>
 
-            {actArr.map(item => <BoxAct key={item} description={item.description} clasName={item.clasName} nameAction={item.nameAction} />)}
+            {actArr.map(item => <BoxAct key={item} description={item.description} urlPhoto={item.urlPhoto} clasName={item.clasName} nameAction={item.nameAction} />)}
             
   
           </div>
