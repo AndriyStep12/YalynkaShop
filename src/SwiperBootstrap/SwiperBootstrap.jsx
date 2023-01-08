@@ -2,8 +2,10 @@ import actArr from '../Base/Actions/Actions'
 import BoxAct from './BoxAct'
 import React from 'react'
 import { ReactDOM } from 'react'
+import { Component } from 'react'
 
-export default (props) => {
+class SwiperB extends Component {
+    render(){
     return(
       <div className="sliedrBox">
         
@@ -27,4 +29,7 @@ export default (props) => {
   
       </div>
     )
+    }
   }
+
+  export default SwiperB;
