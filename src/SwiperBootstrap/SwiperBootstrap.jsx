@@ -1,6 +1,7 @@
 import actArr from '../Base/Actions/Actions'
 import BoxAct from './BoxAct'
 import React from 'react'
+import './SwiperBootstrap.css'
 import { ReactDOM } from 'react'
 import { Component } from 'react'
 
