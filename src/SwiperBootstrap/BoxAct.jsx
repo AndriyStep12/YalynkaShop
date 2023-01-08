@@ -8,7 +8,7 @@ class BoxAct extends Component {
     render(props){
         return(
             <div className="boxAct">
-                <h3>{this.props.name}</h3>
+                <h3>rgrtrfg</h3>
             </div>
         )
     }
