@@ -10,6 +10,7 @@
   flex-direction: column;
   background-size: cover;
   background-position: center;
+  padding: 0 15px;
 }
 
 .boxAct h3{
