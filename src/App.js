@@ -20,6 +20,7 @@ import Cart from './Bucket/BucketForm'
 import HomePage from './Home/Home'
 import TypeProduct from './ProductsGet/ProductsType';
 import ScreenLoad from './LoadingPage/Loading'
+import SwiperBoot from './SwiperBootstrap/SwiperBootstrap'
 
 let arr = JSON.parse(localStorage.getItem('arr')) || []
 let numb_tovars = JSON.parse(localStorage.getItem('numb_')) || 0; 
@@ -81,6 +82,12 @@ class App extends Component {
       thrType = '';
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Toys'){
       appBox = <AllToys/>
+      helloApp = '';
+      oneType = '';
+      twoType = '';
+      thrType = '';
+    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#BetaTest'){
+      appBox = <SwiperBoot/>
       helloApp = '';
       oneType = '';
       twoType = '';
