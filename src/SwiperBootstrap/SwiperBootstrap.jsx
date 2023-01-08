@@ -13,6 +13,10 @@ class SwiperB extends Component {
         <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
           <div className="carousel-inner">
 
+            <ol class="carousel-indicators">
+                {actArr.map(item => <li data-target="#carouselExampleIndicators" data-slide-to={item} className={item.activeStan}></li>)}
+            </ol>
+
             {actArr.map(item => <BoxAct key={item} clasName={item.clasName} nameAction={item.nameAction} />)}
             
   
