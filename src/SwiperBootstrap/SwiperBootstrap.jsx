@@ -1,7 +1,7 @@
 import ActArr from '../Base/Actions/Actions'
 import BoxAct from './BoxAct'
 
-export default () => {
+export default (props) => {
     return(
       <div className="sliedrBox">
         
