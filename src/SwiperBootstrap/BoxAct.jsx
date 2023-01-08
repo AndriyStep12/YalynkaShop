@@ -6,8 +6,10 @@ import $ from 'jquery'
 
 function BoxAct (props) {
     return(
-        <div className="boxAct">
-            <h3>{props.nameAction}</h3>
+        <div className={props.clasName}>
+            <div className="boxAct">
+                <h3>{props.nameAction}</h3>
+            </div>
         </div>
     )
 }
