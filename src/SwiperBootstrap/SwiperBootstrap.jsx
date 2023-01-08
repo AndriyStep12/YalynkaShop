@@ -1,4 +1,4 @@
-import ActArr from '../Base/Actions/Actions'
+import actArr from '../Base/Actions/Actions'
 import BoxAct from './BoxAct'
 
 export default (props) => {
@@ -8,7 +8,7 @@ export default (props) => {
         <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
           <div className="carousel-inner">
             
-            {ActArr.map(item => <BoxAct key={item} nameAction={item.nameAction} />)}
+          {actArr.map(item => <BoxAct key={item} nameAction={item.nameAction} />)}
             
   
           </div>

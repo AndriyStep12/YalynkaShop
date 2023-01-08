@@ -4,12 +4,14 @@ import { PropsWithChildren } from "react"
 import jQuery from "jquery";
 import $ from 'jquery'
 
-function BoxAct (props) {
-    return(
-        <div className="boxAct">
-            <h3>{this.props.nameAction}</h3>
-        </div>
-    )
+class BoxContent extends Component {
+    render(props){
+        return(
+            <div className="boxAct">
+                <h3>{this.props.nameAction}</h3>
+            </div>
+        )
+    }
 }
 
 export default BoxAct;
