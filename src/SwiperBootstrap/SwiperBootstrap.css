@@ -33,3 +33,17 @@
   justify-content: center;
   align-items: center;
 }
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner {
+  height: 100%;
+  display: flex;
+  transition: 1s;
+  flex-direction: column;
+  justify-content: center;
+}
