@@ -9,6 +9,7 @@ function BoxAct (props) {
         <div className={props.clasName}>
             <div className="boxAct">
                 <h3>{props.nameAction}</h3>
+                <p>{props.description}</p>
             </div>
         </div>
     )
