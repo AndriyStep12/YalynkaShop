@@ -4,7 +4,7 @@ import { PropsWithChildren } from "react"
 import jQuery from "jquery";
 import $ from 'jquery'
 
-function BoxAct () {
+function BoxAct (props) {
     return(
         <div className="boxAct">
             <h3>{this.props.nameAction}</h3>
