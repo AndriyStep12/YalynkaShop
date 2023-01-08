@@ -35,9 +35,9 @@
 }
 
 .carousel-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: none;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .carousel-inner {
