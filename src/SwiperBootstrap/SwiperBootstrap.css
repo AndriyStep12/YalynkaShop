@@ -14,10 +14,6 @@
   -webkit-text-stroke: 1px black;
 }
 
-*{
-  transition: 1s;
-}
-
 .boxAct h3{
   font-size: 40px;
 }
@@ -54,12 +50,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 1;
 }
 
 .carousel-item {
-  opacity: 0;
-  display: flex;
+  display: none;
   /* justify-content: center;
   align-items: center; */
 }
