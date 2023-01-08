@@ -1,7 +1,7 @@
 .boxAct {
   width: 60%;
   min-height: 400px;
-  background-color: rgb(118, 168, 255);
+  /* background-color: rgb(118, 168, 255); */
   display: flex;
   justify-content: center;
   align-items: center;
