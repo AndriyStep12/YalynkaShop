@@ -7,7 +7,7 @@ import $ from 'jquery'
 function BoxAct (props) {
     return(
         <div className={props.clasName}>
-            <div className="boxAct" style={{marginRight: 'url(' + props.urlPhoto + ')'}}>
+            <div className="boxAct" style={{backgroundImage: 'url(' + props.urlPhoto + ')'}}>
                 <h3>{props.nameAction}</h3>
                 <p>{props.description}</p>
             </div>
