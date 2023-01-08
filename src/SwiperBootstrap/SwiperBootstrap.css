@@ -65,3 +65,13 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.loadBut{
+  border: none;
+  -webkit-text-stroke: none;
+  width: 170px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgb(145, 255, 123);
+  color: #000;
+}
