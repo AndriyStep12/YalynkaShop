@@ -7,6 +7,15 @@
   align-items: center;
   color: #fff;
   border-radius: 10px;
+  flex-direction: column;
+}
+
+.boxAct h3{
+  font-size: 40px;
+}
+
+.boxAct p{
+  font-size: 20px;
 }
 
 #carouselExampleControls {
