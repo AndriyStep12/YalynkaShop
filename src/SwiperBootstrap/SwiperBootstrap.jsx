@@ -12,9 +12,7 @@ class SwiperB extends Component {
         <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
           <div className="carousel-inner">
             
-          <BoxAct />
-          <BoxAct />
-          <BoxAct />
+          {actArr.map(item => <BoxAct key={item} nameAction={item.nameAction} />)}
             
   
           </div>

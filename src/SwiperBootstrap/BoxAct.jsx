@@ -5,11 +5,11 @@ import jQuery from "jquery";
 import $ from 'jquery'
 
 function BoxAct () {
-        return(
-            <div className="boxAct">
-                <h3>rgrtrfg</h3>
-            </div>
-        )
+    return(
+        <div className="boxAct">
+            <h3>{this.props.nameAction}</h3>
+        </div>
+    )
 }
 
 export default BoxAct;
