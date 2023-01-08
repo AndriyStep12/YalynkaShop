@@ -8,6 +8,8 @@
   color: #fff;
   border-radius: 10px;
   flex-direction: column;
+  background-size: cover;
+  background-position: center;
 }
 
 .boxAct h3{
