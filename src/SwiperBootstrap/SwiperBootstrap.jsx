@@ -1,5 +1,7 @@
 import actArr from '../Base/Actions/Actions'
 import BoxAct from './BoxAct'
+import React from 'react'
+import { ReactDOM } from 'react'
 
 export default (props) => {
     return(
