@@ -18,16 +18,7 @@ function Home (){
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: [`<span id='red' onClick={function(){
-                document.location.href = window.location.pathname + '#' + 'Trees';
-                document.location.reload();
-            }}>trees</span>`, `<span id='yellow' onClick={function(){
-                document.location.href = window.location.pathname + '#' + 'Toys';
-                document.location.reload();
-            }}>toys</span>`, `<span id='green' onClick={function(){
-                document.location.href = window.location.pathname + '#' + 'Garlands';
-                document.location.reload();
-            }}>garlands</span>`],
+            strings: ["<span id='red'>trees</span>", "<span id='yellow'>toys</span>", "<span id='green'>garlands</span>"],
             smartBackspace: true, // this is a default
             showCursor: true,
             typeSpeed: 120,
@@ -39,7 +30,16 @@ function Home (){
 
     })
 
+    let treeType = document.getElementById("red")
+    let toysType = document.getElementById("yellow")
+    let gareType = document.getElementById("green")
+
+    $(treeType).onClick(function(){
+        alert('Hello')
+    })
+
     return(
+        
         <div className="homePage">
             {/* {actionArr.map(item => <BoxProps key={item} nameAction={item.nameAction} description={item.description} />)} */}
             <div className="box_CenterHome">
