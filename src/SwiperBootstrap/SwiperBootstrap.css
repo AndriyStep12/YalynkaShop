@@ -85,3 +85,17 @@
     width: 10%;
   }
 }
+
+@media screen and (max-width: 665px) {
+  .boxAct{
+    height: 250px;
+  }
+
+  .boxAct h3{
+    font-size: 30px;
+  }
+
+  .boxAct p{
+    font-size: 20px;
+  }
+}
