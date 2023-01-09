@@ -34,9 +34,9 @@ function Home (){
     let toysType = document.getElementById("yellow")
     let gareType = document.getElementById("green")
 
-    $(treeType).onClick(function(){
-        alert('Hello')
-    })
+    $(treeType).onClickonClick={function(){
+        alert('dg')
+    }}
 
     return(
         
