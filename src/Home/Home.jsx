@@ -30,13 +30,13 @@ function Home (){
 
     })
 
-    let treeType = document.getElementById("red")
-    let toysType = document.getElementById("yellow")
-    let gareType = document.getElementById("green")
+    // let treeType = document.getElementById("red")
+    // let toysType = document.getElementById("yellow")
+    // let gareType = document.getElementById("green")
 
-    $(treeType).onClickonClick={function(){
-        alert('dg')
-    }}
+    // $(treeType).onClickonClick={function(){
+    //     alert('dg')
+    // }}
 
     return(
         

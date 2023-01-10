@@ -4,6 +4,8 @@ import React from 'react'
 import './SwiperBootstrap.css'
 import { ReactDOM } from 'react'
 import { Component } from 'react'
+import BoxActionGet from '../BoxActions/BoxActions'
+
 
 class SwiperB extends Component {
     render(){
@@ -31,6 +33,11 @@ class SwiperB extends Component {
           </a>
         </div>
   
+        <div className="actionGet">
+
+          {actArr.map(item => <BoxActionGet key={item} box={item.items.box} imgItem={item.items.imgItem} nameT={item.items.name} price={item.items.price} locationItem={item.items.locationItem} nameClass={item.items.nameClass} inputNumb={item.items.inputNumb} />)}
+
+        </div>
   
       </div>
     )
