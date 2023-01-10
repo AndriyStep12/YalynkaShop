@@ -10,15 +10,17 @@ let valAct = '';
 
 class SwiperB extends Component {
 
-  componentDidMount(){
-    if (actArr == 0){
-      valAct = ''
-    } else {
-      valAct = 'Працює, хехе'
-    }
-  }
+    
 
     render(){
+
+      if (actArr == 0){
+        valAct = ''
+      } else {
+        valAct = 'Працює, хехе'
+      }
+
+      
     return(
       <div className="sliedrBox">
         
