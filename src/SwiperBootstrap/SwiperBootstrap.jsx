@@ -6,8 +6,18 @@ import { ReactDOM } from 'react'
 import { Component } from 'react'
 import BoxActionGet from '../BoxActions/BoxActions'
 
+let valAct = '';
 
 class SwiperB extends Component {
+
+  componentDidMount(){
+    if (actArr == 0){
+      valAct = ''
+    } else {
+      valAct = 'Працює, хехе'
+    }
+  }
+
     render(){
     return(
       <div className="sliedrBox">
@@ -35,11 +45,7 @@ class SwiperB extends Component {
   
         <div className="actionGet">
 
-          {
-            actArr.map(
-              indexes => actArr[indexes].items.map(item => <BoxActionGet key={item} box={item.items.box} imgItem={item.items.imgItem} nameT={item.items.name} price={item.items.price} locationItem={item.items.locationItem} nameClass={item.items.nameClass} inputNumb={item.items.inputNumb} />)
-            )
-          }
+          {valAct}
 
         </div>
   
