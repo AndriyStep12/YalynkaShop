@@ -35,7 +35,11 @@ class SwiperB extends Component {
   
         <div className="actionGet">
 
-          {actArr.items.map(item => <BoxActionGet key={item} box={item.items.box} imgItem={item.items.imgItem} nameT={item.items.name} price={item.items.price} locationItem={item.items.locationItem} nameClass={item.items.nameClass} inputNumb={item.items.inputNumb} />)}
+          {
+            actArr.map(
+              indexes => actArr.items.map(item => <BoxActionGet key={item} box={item.items.box} imgItem={item.items.imgItem} nameT={item.items.name} price={item.items.price} locationItem={item.items.locationItem} nameClass={item.items.nameClass} inputNumb={item.items.inputNumb} />)
+            )
+          }
 
         </div>
   
