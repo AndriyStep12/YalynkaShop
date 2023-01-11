@@ -1,20 +1,20 @@
 @font-face {
-	font-family: 'e-Ukraine_Logo';
-	src: url('./fonts/e-UkraineHead-Bold.eot');
-	src: local('☺'), url('./fonts/e-UkraineHead-Bold.woff') format('woff'), url('./fonts/e-UkraineHead-Bold.ttf') format('truetype'), url('./fonts/e-UkraineHead-Bold.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'e-Ukraine_Logo';
+  src: url('./fonts/e-UkraineHead-Bold.eot');
+  src: local('☺'), url('./fonts/e-UkraineHead-Bold.woff') format('woff'), url('./fonts/e-UkraineHead-Bold.ttf') format('truetype'), url('./fonts/e-UkraineHead-Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'e-Ukraine_Regular';
-	src: url('./fonts/e-Ukraine-Light.eot');
-	src: local('☺'), url('./fonts/e-Ukraine-Light.woff') format('woff'), url('./fonts/e-Ukraine-Light.ttf') format('truetype'), url('./fonts/e-Ukraine-Light.svg') format('svg');
-	font-weight: 500;
-	font-style: normal;
+  font-family: 'e-Ukraine_Regular';
+  src: url('./fonts/e-Ukraine-Light.eot');
+  src: local('☺'), url('./fonts/e-Ukraine-Light.woff') format('woff'), url('./fonts/e-Ukraine-Light.ttf') format('truetype'), url('./fonts/e-Ukraine-Light.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
 }
 
-*{
+* {
   margin: 0;
   font-family: 'e-Ukraine_Regular';
   padding: 0;
@@ -41,12 +41,13 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #FF7171;
+  background: rgb(255, 67, 181);
+  background: linear-gradient(90deg, rgba(255, 67, 181, 1) 0%, rgba(255, 77, 77, 1) 100%);
   overflow-x: hidden;
 }
 
 @media screen and (max-width: 1275px) {
-  .boxInsideTwo{
+  .boxInsideTwo {
     font-size: 15px;
     width: 90%;
   }
@@ -54,8 +55,7 @@
   #row-reverse .right-side,
   #row-reverse .left-side,
   #row .right-side,
-  #row .left-side{
+  #row .left-side {
     width: 50%;
   }
 }
-
