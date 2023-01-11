@@ -17,7 +17,6 @@
     width: 80%;
     height: 50vh;
     background-color: #fff;
-    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +56,6 @@
     justify-content: center;
     align-items: center;
     border: 4px dotted rgb(133, 112, 255);
-    border-radius: 10px;
     background-color: rgb(247, 255, 103);
     position: relative;
     z-index: 30;
@@ -166,7 +164,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 70px 0;
+    margin: 0 0;
 }
 
 .left-side {
@@ -175,7 +173,7 @@
 
 .right-side {
     width: 100%;
-    padding: 20px 30px;
+    padding: 0;
 }
 
 .boxInsideTwo div{
@@ -184,12 +182,10 @@
 
 .thisPic {
     width: 500px;
-    border-radius: 10px;
 }
 
 .boxInsideTwo {
     background-color: #fff;
-    border-radius: 20px;
     padding: 10px 30px;
 }
 
@@ -223,7 +219,7 @@
 
 .dark{
     width: 100%;
-    height: 10vh;
+    height: 50vh;
     background-color: #000;
 }
 
@@ -247,13 +243,11 @@
 
     .thisPic,
     .boxInsideTwo {
-        width: 80%;
-        border-radius: 20px;
+        width: 100%;
     }
 
     .boxInsideTwo {
         font-size: 25px;
-        margin-top: 40px;
     }
 }
 
