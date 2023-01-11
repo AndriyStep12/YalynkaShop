@@ -32,9 +32,9 @@ class BoxContent extends Component {
                         <div className="hidenBox">
                             <div className="hb">
                                 <div className="boxyy">
-                                    Count:
+                                    Action name:
                                     <div class="quantity">
-                                        1
+                                        {this.props.nameAction}
                                     </div> 
                                 </div>
                                 <div className="priceBox">
