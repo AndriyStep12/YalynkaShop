@@ -32,7 +32,7 @@ class BoxContent extends Component {
                         <div className="hidenBox">
                             <div className="hb">
                                 <div className="boxyy">
-                                    Action name:
+                                    Action name: 
                                     <div class="quantity">
                                         {this.props.nameAction}
                                     </div> 
