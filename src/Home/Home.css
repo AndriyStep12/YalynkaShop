@@ -247,6 +247,7 @@
 
 .boxInsideTwo {
     font-size: 25px;
+    padding: 50px;
 }
 
 @media screen and (max-width: 978px) {
