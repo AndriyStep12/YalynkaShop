@@ -5,7 +5,7 @@ let actions = [{
         nameAction: 'Action1',
         description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, recusandae.`,
         items: [{
-                nameT: 'ActionItem01',
+                nameT: 'Tree Action 1',
                 price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
@@ -14,7 +14,7 @@ let actions = [{
                 nameClass: 'nameAct01'
             },
             {
-                nameT: 'ActionItem02',
+                nameT: 'Tree Action 2',
                 price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
@@ -23,7 +23,7 @@ let actions = [{
                 nameClass: 'nameAct02'
             },
             {
-                nameT: 'ActionItem03',
+                nameT: 'Tree Action 3',
                 price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
@@ -40,7 +40,7 @@ let actions = [{
         nameAction: 'Action2',
         description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, recusandae.`,
         items: [{
-                nameT: 'ActionItem11',
+                nameT: 'Toy action 1',
                 price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
@@ -49,7 +49,7 @@ let actions = [{
                 nameClass: 'nameAct11'
             },
             {
-                nameT: 'ActionItem12',
+                nameT: 'Toy action 2',
                 price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
@@ -58,7 +58,7 @@ let actions = [{
                 nameClass: 'nameAct12'
             },
             {
-                nameT: 'ActionItem13',
+                nameT: 'Toy action 3',
                 price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
@@ -75,7 +75,7 @@ let actions = [{
         nameAction: 'Action3',
         description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, recusandae.`,
         items: [{
-                nameT: 'ActionItem21',
+                nameT: 'Garland Action 1',
                 price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
@@ -84,7 +84,7 @@ let actions = [{
                 nameClass: 'nameAct21'
             },
             {
-                nameT: 'ActionItem22',
+                nameT: 'Garland Action 2',
                 price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
@@ -93,7 +93,7 @@ let actions = [{
                 nameClass: 'nameAct22'
             },
             {
-                nameT: 'ActionItem23',
+                nameT: 'Garland Action 3',
                 price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
