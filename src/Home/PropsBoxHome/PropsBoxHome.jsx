@@ -7,9 +7,9 @@ import $ from 'jquery'
 class PropsBoxHome extends Component{
     render(){
         return(
-            <div className="boxesThFv" id={this.props.flD}>
+            <div className="boxesThFv">
                 <div className="left-side">
-                    <img className='thisPic' src={this.props.imageUrl} alt="" />
+                    <div id='picDiv' className='divPic' style={"background-image: url(" + this.props.imageUrl +");"}></div>
                 </div>
                 <div className="right-side">
                     <div className="boxInsideTwo">

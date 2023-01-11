@@ -163,19 +163,23 @@
 .boxesThFv {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 70px 0;
 }
 
 .left-side {
-    width: 40%;
+    width: 100%;
 }
 
 .right-side {
-    width: 60%;
-    padding: 0 30px;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.boxInsideTwo div{
+    text-align: center;
 }
 
 .thisPic {
@@ -209,7 +213,12 @@
     padding: 0 30px;
 }
 
-
+.divPic{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
 
 
 @media screen and (max-width: 1170px) {
