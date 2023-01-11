@@ -9,7 +9,7 @@ class PropsBoxHome extends Component{
         return(
             <div className="boxesThFv">
                 <div className="left-side">
-                    <div id='picDiv' className='divPic' style={{backgroundImage: URL(this.props.imageUrl)}} ></div>
+                    <div id='picDiv' className='divPic' style={{backgroundImage: url(this.props.imageUrl)}} ></div>
                 </div>
                 <div className="right-side">
                     <div className="boxInsideTwo">
