@@ -65,78 +65,78 @@
 
 
 .clickHere {
-  position: relative;
-  background: #444;
-  color: #fff;
-  text-decoration: none;
-  /* font-family: "Poppins", sans-serif; */
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  letter-spacing: 0.1rem;
-  padding: 0.75rem 1.5rem;
-  transition: 0.5s;
+    position: relative;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    /* font-family: "Poppins", sans-serif; */
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    padding: 0.75rem 1.5rem;
+    transition: 0.5s;
 }
 
 .clickHere:hover {
-  letter-spacing: 0.25rem;
-  background: rgb(0, 237, 100);
-  color: rgb(0, 237, 100);
-  box-shadow: 0 0 50px 10px rgb(0, 237, 100);
+    letter-spacing: 0.25rem;
+    background: rgb(0, 237, 100);
+    color: rgb(0, 237, 100);
+    box-shadow: 0 0 50px 10px rgb(0, 237, 100);
 }
 
 .clickHere::before {
-  content: "";
-  position: absolute;
-  inset: 2px;
-  background: #27282c;
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
 }
 
 .clickHere span {
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .clickHere i {
-  position: absolute;
-  inset: 0;
-  display: block;
-  color: rgb(0, 237, 100)
+    position: absolute;
+    inset: 0;
+    display: block;
+    color: rgb(0, 237, 100)
 }
 
 .clickHere i::before {
-  content: "";
-  position: absolute;
-  top: -3.5px;
-  left: 80%;
-  width: 13px;
-  height: 7px;
-  border: 3px solid rgb(0, 237, 100);
-  background: #27282c;
-  transform: translateX(-50%);
-  transition: 0.5s;
+    content: "";
+    position: absolute;
+    top: -3.5px;
+    left: 80%;
+    width: 13px;
+    height: 7px;
+    border: 3px solid rgb(0, 237, 100);
+    background: #27282c;
+    transform: translateX(-50%);
+    transition: 0.5s;
 }
 
 .clickHere:hover i::before {
-  left: 20%;
-  width: 20px;
+    left: 20%;
+    width: 20px;
 }
 
 .clickHere i::after {
-  content: "";
-  position: absolute;
-  bottom: -3.5px;
-  left: 20%;
-  width: 13px;
-  height: 7px;
-  border: 3px solid rgb(0, 237, 100);
-  background: #27282c;
-  transform: translateX(-50%);
-  transition: 0.5s;
+    content: "";
+    position: absolute;
+    bottom: -3.5px;
+    left: 20%;
+    width: 13px;
+    height: 7px;
+    border: 3px solid rgb(0, 237, 100);
+    background: #27282c;
+    transform: translateX(-50%);
+    transition: 0.5s;
 }
 
 .clickHere:hover i::after {
-  left: 80%;
-  width: 20px;
+    left: 80%;
+    width: 20px;
 }
 
 
@@ -176,7 +176,7 @@
     padding: 0;
 }
 
-.boxInsideTwo div{
+.boxInsideTwo div {
     text-align: center;
 }
 
@@ -209,7 +209,7 @@
     padding: 0 30px;
 }
 
-.divPic{
+.divPic {
     width: 100%;
     height: 500px;
     background-size: cover;
@@ -217,38 +217,36 @@
     background-position: center;
 }
 
-.dark{
+.dark {
     width: 100%;
     height: 50vh;
     background-color: #000;
 }
 
 
-@media screen and (max-width: 1170px) {
 
-    #row,
-    #row-reverse {
-        display: flex;
-        flex-direction: column;
-    }
+#row,
+#row-reverse {
+    display: flex;
+    flex-direction: column;
+}
 
-    #row-reverse .right-side,
-    #row-reverse .left-side,
-    #row .right-side,
-    #row .left-side {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
+#row-reverse .right-side,
+#row-reverse .left-side,
+#row .right-side,
+#row .left-side {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-    .thisPic,
-    .boxInsideTwo {
-        width: 100%;
-    }
+.thisPic,
+.boxInsideTwo {
+    width: 100%;
+}
 
-    .boxInsideTwo {
-        font-size: 25px;
-    }
+.boxInsideTwo {
+    font-size: 25px;
 }
 
 @media screen and (max-width: 978px) {
@@ -262,7 +260,7 @@
         font-size: 25px;
     }
 
-    .clickHere{
+    .clickHere {
         width: 240px;
         height: 60px;
         font-size: 14px;
@@ -274,8 +272,8 @@
         background: rgb(0, 237, 100);
         color: rgb(0, 237, 100);
         box-shadow: 0 0 50px 10px rgb(0, 237, 100);
-      }
-      
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -334,6 +332,6 @@
     }
 }
 
-#blue{
+#blue {
     color: rgb(120, 103, 251);
 }
