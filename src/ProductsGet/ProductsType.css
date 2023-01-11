@@ -25,6 +25,7 @@
     align-items: center;
     font-size: 50px;
     cursor: pointer;
+    height: 500px;
 }
 
 .lock{
@@ -35,6 +36,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 #boxTre{
@@ -77,6 +79,11 @@
     .boxInType{
         margin: 40px 0;
         width: 97%;
+        height: 500px;
+    }
+
+    .alltreeBase{
+        margin-top: 100px;
     }
 }
 
