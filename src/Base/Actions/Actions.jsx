@@ -6,7 +6,7 @@ let actions = [{
         description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, recusandae.`,
         items: [{
                 nameT: 'ActionItem01',
-                price: '10$',
+                price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
                 box: 'box-priceAct01',
@@ -15,7 +15,7 @@ let actions = [{
             },
             {
                 nameT: 'ActionItem02',
-                price: '10$',
+                price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
                 box: 'box-priceAct02',
@@ -24,7 +24,7 @@ let actions = [{
             },
             {
                 nameT: 'ActionItem03',
-                price: '10$',
+                price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
                 box: 'box-priceAct03',
@@ -41,7 +41,7 @@ let actions = [{
         description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, recusandae.`,
         items: [{
                 nameT: 'ActionItem11',
-                price: '10$',
+                price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
                 box: 'box-priceAct11',
@@ -50,7 +50,7 @@ let actions = [{
             },
             {
                 nameT: 'ActionItem12',
-                price: '10$',
+                price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
                 box: 'box-priceAct12',
@@ -59,7 +59,7 @@ let actions = [{
             },
             {
                 nameT: 'ActionItem13',
-                price: '10$',
+                price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
                 box: 'box-priceAct13',
@@ -76,7 +76,7 @@ let actions = [{
         description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, recusandae.`,
         items: [{
                 nameT: 'ActionItem21',
-                price: '10$',
+                price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
                 box: 'box-priceAct21',
@@ -85,7 +85,7 @@ let actions = [{
             },
             {
                 nameT: 'ActionItem22',
-                price: '10$',
+                price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
                 box: 'box-priceAct22',
@@ -94,7 +94,7 @@ let actions = [{
             },
             {
                 nameT: 'ActionItem23',
-                price: '10$',
+                price: 10,
                 locationItem: 'Lviv',
                 imgItem: '',
                 box: 'box-priceAct23',

@@ -16,65 +16,10 @@ let oldValue = 0;
 
 class BoxContent extends Component {
 
-    componentDidMount(){
-        jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div></div>').insertAfter('.quantity input');
-        jQuery('.quantity').each(function() {
-        var spinner = jQuery(this),
-            input = spinner.find('input[type="number"]'),
-            btnUp = spinner.find('.quantity-up'),
-            btnDown = spinner.find('.quantity-down'),
-            min = input.attr('min'),
-            max = input.attr('max');
-
-        btnUp.click(function() {
-            oldValue = parseFloat(input.val());
-            if (oldValue >= max) {
-                oldValue = oldValue;
-            } else {
-                oldValue += 1;
-            }
-            spinner.find("input").val(oldValue);
-            spinner.find("input").trigger("change");
-            $(this.props.box).html(this.props.price*oldValue)
-        });
-
-        btnDown.click(function() {
-            oldValue = parseFloat(input.val());
-                if (oldValue <= min) {
-                    oldValue = oldValue;
-                } else {
-                    oldValue -= 1;
-                }
-                spinner.find("input").val(oldValue);
-                spinner.find("input").trigger("change");
-                $(this.props.box).html(this.props.price*oldValue)
-             });
-        });
-    }
-
-    constructor(props) {
-        super(props);
-        this.state = {
-          isGoing: true,
-          numberOfGuests: 2
-        };
     
-        this.handleInputChange = this.handleInputChange.bind(this);
-      }
-
-    handleInputChange(event) {
-        const target = event.target;
-        const value = target.type === 'number' ? target.checked : target.value;
-        const name = target.name;
-    
-        this.setState({
-          [name]: value
-        });
-      }
-
     render(){
         return(
-                <div className="box_tree">
+                <div className="box_tree" id="boxActions">
                     <div className="left-side">
                         <img src={this.props.imgItem} className="saleImage" alt="" />
                     </div>
@@ -89,7 +34,7 @@ class BoxContent extends Component {
                                 <div className="boxyy">
                                     Count:
                                     <div class="quantity">
-                                        <input type="number" className={this.props.inputNumb} id={this.props.inputNumb} min="1" max="9" step="1" value="1" onChange={this.handleInputChange}/>
+                                        1
                                     </div> 
                                 </div>
                                 <div className="priceBox">

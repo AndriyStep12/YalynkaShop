@@ -43,6 +43,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+  z-index: 10;
+}
+
+#boxActions{
+  width: 80%;
 }
 
 .carousel-item-next,
