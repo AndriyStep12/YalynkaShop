@@ -5,6 +5,7 @@ import './SwiperBootstrap.css'
 import { ReactDOM } from 'react'
 import { Component } from 'react'
 import BoxActionGet from '../BoxActions/BoxActions'
+import DataBaseActions from '../Base/Actions/Actions'
 
 let valAct = '';
 
@@ -14,16 +15,13 @@ class SwiperB extends Component {
 
     render(){
 
-      if (actArr == 0){
-        valAct = 'Sorry, but there is no action'
-      } else {
-        for (let i = 0; i <= actArr.length; i++){
-          let docAddopt = document.getElementById("actionGet");
-          $(docAddopt).append(
-            `<BoxActionGet box={` + actArr[i].items.box + `} imgItem={` + actArr[i].items.imgItem + `} nameT={`+ actArr[i].items.name +`} price={` + actArr[i].items.price +`} locationItem={` + actArr[i].items.locationItem + `} nameClass={` + actArr[i].items.nameClass + `} inputNumb={` + actArr[i].items.inputNumb + `} />`
-          )
-        }
-      }
+      // if (actArr == 0){
+      //   valAct = 'Sorry, but there is no action'
+      // } else {
+      //   for (let i = 0; i <= actArr.length; i++){
+          
+      //   }
+      // }
 
 
     return(
@@ -52,7 +50,9 @@ class SwiperB extends Component {
   
         <div className="actionGet" id="actionGet">
 
-          {valAct}
+          {/* {valAct} */}
+
+          {DataBaseActions.map(index => DataBaseActions[index].items.map(item => <BoxAct key={item} box={item.box} price={item.price} imgItem={item.imgItem} nameClass={item.nameClass} nameT={item.nameT} locationItem={item.locationItem} inputNumb={item.inputNumb} />))}
 
 
         </div>
