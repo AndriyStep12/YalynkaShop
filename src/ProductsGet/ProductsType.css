@@ -51,7 +51,13 @@
 
 #boxActBuy{
     background-image: url(./sale.webp);
-    width: 90%;
+    width: 97%;
+    margin-top: 50px;
+}
+
+.lock{
+    margin-bottom: -100px;
+    padding: 10px 0;
 }
 
 @media screen and (max-width: 810px) {
@@ -60,11 +66,17 @@
         justify-content: center;
         align-items: center;
         min-height: 100vh;
+        margin-top: 100px;
+    }
+
+    .lock{
+        display: flex;
+        flex-direction: column;
     }
 
     .boxInType{
         margin: 40px 0;
-        width: 80%;
+        width: 97%;
     }
 }
 
