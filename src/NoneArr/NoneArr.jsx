@@ -18,7 +18,7 @@ class BoxBucketNone extends Component {
     render(props){
         return(
             <div className="box_backet" id="nonyy">
-                <span className="nameBox">You don't have any products yet</span>
+                <span className="nameBox">У вас наразі пуста корзина</span>
                 <span className="locateBox"></span>
                 <span className="countBox"></span>
                 <span className="priceBox"></span>

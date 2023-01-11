@@ -117,19 +117,19 @@ class Header extends Component {
                 <button className='span_buttons' onClick={function(e){
                     document.location.href = window.location.pathname + '#' + 'Home';
                     document.location.reload();
-                }} id='burgerButton'>Home</button>
+                }} id='burgerButton'>Головна</button>
                 <button className='span_buttons' onClick={function(e){
                     document.location.href = window.location.pathname + '#' + 'Products';
                     document.location.reload();
-                }} id='burgerButton'>Products</button>
+                }} id='burgerButton'>Продукти</button>
                 <button className='span_buttons' onClick={function(e){
                     document.location.href = window.location.pathname + '#' + 'Feedback';
                     document.location.reload();
-                }} id='burgerButton'>Feedback</button>
+                }} id='burgerButton'>Зв'язок</button>
                 <button className='span_buttons' onClick={function(e){
                     document.location.href = window.location.pathname + '#' + 'Cart';
                     document.location.reload();
-                }} id='burgerButton'>Cart</button>
+                }} id='burgerButton'>Корзина</button>
             </div>
         </div>
 

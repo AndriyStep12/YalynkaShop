@@ -1,8 +1,8 @@
 let tovars = [
     {
-        name: 'ChristmasTree1',
+        name: 'Ялинка1',
         price: 200,
-        locationTovar: 'Lviv',
+        locationTovar: 'Львів',
         box: 'box-price0',
         id: 0,
         inputNumb: 'input0',
@@ -11,9 +11,9 @@ let tovars = [
         type: 'Tree'
     },
     {
-        name: 'ChristmasTree2',
+        name: 'Ялинка2',
         price: 178,
-        locationTovar: 'Kyiv',
+        locationTovar: 'Київ',
         box: 'box-price1',
         id: 1,
         inputNumb: 'input1',
@@ -22,9 +22,9 @@ let tovars = [
         type: 'Tree'
     },
     {
-        name: 'ChristmasTree3',
+        name: 'Ялинка3',
         price: 245,
-        locationTovar: 'Kherson',
+        locationTovar: 'Херсон',
         box: 'box-price2',
         id: 2,
         inputNumb: 'input2',
@@ -33,9 +33,9 @@ let tovars = [
         type: 'Tree'
     },
     {
-        name: 'ChristmasTree4',
+        name: 'Ялинка4',
         price: 300,
-        locationTovar: 'Odessa',
+        locationTovar: 'Одеса',
         box: 'box-price3',
         id: 3,
         inputNumb: 'input3',
@@ -44,9 +44,9 @@ let tovars = [
         type: 'Tree'
     },
     {
-        name: 'ChristmasTree5',
+        name: 'Ялинка5',
         price: 300,
-        locationTovar: 'Odessa',
+        locationTovar: 'Одеса',
         box: 'box-price4',
         id: 4,
         inputNumb: 'input4',

@@ -1,6 +1,6 @@
 let tovars = [
     {
-        name: 'Toys1',
+        name: 'Іграшка1',
         price: 30,
         locationTovar: 'Kyiv',
         box: 'box-price0',
@@ -8,10 +8,10 @@ let tovars = [
         inputNumb: 'input0',
         nameClass: 'name0',
         urlPhoto: 'https://zelena.ua/storage/24379/163256329215247c106.jpg',
-        type: 'Toys'
+        type: 'Toy'
     },
     {
-        name: 'Toys2',
+        name: 'Іграшка2',
         price: 50,
         locationTovar: 'Kyiv',
         box: 'box-price1',
@@ -19,10 +19,10 @@ let tovars = [
         inputNumb: 'input1',
         nameClass: 'name1',
         urlPhoto: 'https://zelena.ua/storage/24391/163256329512369c109.jpg',
-        type: 'Toys'
+        type: 'Toy'
     },
     {
-        name: 'Toys3',
+        name: 'Іграшка3',
         price: 28,
         locationTovar: 'Kyiv',
         box: 'box-price2',
@@ -30,7 +30,7 @@ let tovars = [
         inputNumb: 'input2',
         nameClass: 'name2',
         urlPhoto: 'https://ars.ua/media/catalog/product/cache/ac4166a1c95a189a3c49cb9fe1d5531b/f/3/f3c824404fefda2379087738c16da5c8f29045ae_816384_bd_147_337_nab_yal_kul_plast_24sht_6sm.jpg',
-        type: 'Toys'
+        type: 'Toy'
     }
 ];
 

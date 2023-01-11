@@ -25,24 +25,21 @@ class BoxContent extends Component {
                     </div>
                     <div className="right-side">
                         <div className="local">
-                            <span className={this.props.nameClass} id={this.props.nameT}>Name: {this.props.nameT}</span>
-                            <span className={this.props.nameClass} id={this.props.price}>Price: {this.props.price}</span>
-                            <span className={this.props.nameClass} id={this.props.locationItem}>Location: {this.props.locationItem}</span>
+                            <span className={this.props.nameClass} id={this.props.nameT}>Назва: {this.props.nameT}</span>
+                            <span className={this.props.nameClass} id={this.props.price}>Ціна: {this.props.price}</span>
+                            <span className={this.props.nameClass} id={this.props.locationItem}>Місце: {this.props.locationItem}</span>
                         </div>
                         <div className="hidenBox">
                             <div className="hb">
                                 <div className="boxyy">
-                                    Action name: 
+                                    Назва акції: 
                                     <div class="quantity">
                                         {this.props.nameAction}
                                         <input type="number" value={1} id={this.props.inputNumb} className="noneDisplay" />
                                     </div> 
                                 </div>
-                                <div className="priceBox">
-                                Price for one <span>{this.props.price}$</span>
-                                </div>
                                 <button className={this.props.box} id="addBucketId"  onClick={function(e, props){
-                                    alert('Added to bucket. You can delete this product in the bucket')
+                                    alert('Додано до корзини')
                                     let numberOfBox = (e.target.className).substring(12);
                                     let nameInp = 'inputAct' + numberOfBox
                                     let obj = document.getElementsByClassName('nameAct' + numberOfBox)
@@ -85,7 +82,7 @@ class BoxContent extends Component {
                                     nameObj = [];
                                     let thisButon = e.target.className;
                                     JSON.stringify(localStorage.setItem('arr', JSON.stringify(arr)))
-                                    }}>Add to Cart</button>
+                                    }}>Додати в корзину</button>
                             </div>
                         </div>
                     </div>

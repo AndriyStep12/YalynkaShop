@@ -26,9 +26,9 @@ class BoxBucket extends Component {
         return(
             <div className="box_backet" id={this.props.divNext}>
                 <span className="nameBox">{this.props.nameProduct}</span>
-                <span className="locateBox">From {this.props.locationOfTovar}</span>
-                <span className="countBox">Count: {this.props.countTovar}</span>
-                <span className="priceBox">For pay {this.props.pricePush*this.props.countTovar}$</span>
+                <span className="locateBox">Місто {this.props.locationOfTovar}</span>
+                <span className="countBox">Кількість: {this.props.countTovar}</span>
+                <span className="priceBox">До оплати {this.props.pricePush*this.props.countTovar}$</span>
                 {/* <div className="close" id={this.props.buttonNext} onClick={function(e){
                     alert(localStorage)
                 }}>

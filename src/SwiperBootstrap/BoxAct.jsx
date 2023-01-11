@@ -15,7 +15,7 @@ function BoxAct (props) {
                         let goUrl = e.target.id;
                         document.location.href = window.location.pathname + '#' + goUrl;
                         document.location.reload();
-                    }}>Go there</button>
+                    }}>Перейти</button>
                 </div>
             </div>
             

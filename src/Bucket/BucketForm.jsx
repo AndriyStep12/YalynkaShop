@@ -55,7 +55,7 @@ function BucketForm () {
             <div className="buck" id="buck">
                 <div className="boxBucket" id="boxBucket">
                     <div className="head">
-                        <h2>Your Cart</h2>
+                        <h2>Ваша корзина</h2>
                     </div>
                     <div className="cent">
                         <div className="boxCentAdd" id="boxCentAdd">
@@ -65,7 +65,7 @@ function BucketForm () {
                             arr = null;
                             localStorage.clear();
                             document.location.reload();
-                        }}>Delete all</button>
+                        }}>Видалити все</button>
                         <button className="delete" onClick={function(){
                             $(element).css("top", "0vh")
                             $(boxBucket).css("z-index", "1000")
@@ -75,19 +75,19 @@ function BucketForm () {
                 </div>
                 <div className="boxEmail">
                     <div className="box-email">
-                        <h4>Type here your email, phone and location for delivery</h4>
+                        <h4>Веддіть ваш email, номер і локацію для доставки</h4>
                         <form ref={form} id="formy" onSubmit={sendEmail}>
-                            <input type="text" name="to_name" placeholder="Name" />
+                            <input type="text" name="to_name" placeholder="Ім'я" />
                             <input type="email" name="to_email" placeholder="Email" />
-                            <input type="phone" name="to_phone" placeholder="Phone" />
-                            <input type="location" name="to_locate" placeholder="Location" />
+                            <input type="phone" name="to_phone" placeholder="Номер" />
+                            <input type="location" name="to_locate" placeholder="Локація" />
                             <input className="displayNone" type="text" name="to_types" id="allWhatYouWantNumber" value={
                                 JSON.parse(localStorage.getItem("products_"))
                             } />
                             <input className="displayNone" type="text" name="to_pay" value={
                                 JSON.parse(localStorage.getItem("prices_"))
                             } id="allWhatYouWantNumber" />
-                            <input disabled className="boxPay" type="text" name="to_pay" value={ 'Total: ' + JSON.parse(localStorage.getItem("prices_")) + '$' }/>
+                            <input disabled className="boxPay" type="text" name="to_pay" value={ 'До оплати: ' + JSON.parse(localStorage.getItem("prices_")) + '$' }/>
                             <input className="displayNone" type="text" name="to_products" id="allWhatYouWantNumber" value={valy} />
                             <input  id="sendy" type="submit" value="Send" onClick={function(){
                                 // document.location.href == 'https://yalynka-shop.vercel.app/#Home';

@@ -1,6 +1,6 @@
 let tovars = [
     {
-        name: 'Garlands1',
+        name: 'Гірлянди1',
         price: 30,
         locationTovar: 'Lviv',
         box: 'box-price0',
@@ -11,7 +11,7 @@ let tovars = [
         type: 'Garlands'
     },
     {
-        name: 'Garlands2',
+        name: 'Гірлянди2',
         price: 50,
         locationTovar: 'Lviv',
         box: 'box-price1',
@@ -22,7 +22,7 @@ let tovars = [
         type: 'Garlands'
     },
     {
-        name: 'Garlands3',
+        name: 'Гірлянди3',
         price: 28,
         locationTovar: 'Lviv',
         box: 'box-price2',
@@ -33,7 +33,7 @@ let tovars = [
         type: 'Garlands'
     },
     {
-        name: 'Garlands4',
+        name: 'Гірлянди4',
         price: 100,
         locationTovar: 'Lviv',
         box: 'box-price3',

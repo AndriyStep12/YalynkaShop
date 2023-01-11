@@ -12,19 +12,19 @@ class TypeProduct extends Component{
                     document.location.href = window.location.pathname + '#Trees';
                     document.location.reload();
                 }}>
-                    Trees
+                    Ялинки
                 </div>
                 <div className="boxInType" id="boxToy" onClick={function(){
                     document.location.href = window.location.pathname + '#Toys';
                     document.location.reload();
                 }}>
-                    Toys
+                    Іграшки
                 </div>
                 <div className="boxInType" id="boxGar" onClick={function(){
                     document.location.href = window.location.pathname + '#Garlands';
                     document.location.reload();
                 }}>
-                    Garlands
+                    Гірлянди
                 </div>
             </div>
         )

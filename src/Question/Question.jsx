@@ -12,16 +12,15 @@ class AllTree extends Component{
             <div className="FormBoxHead">
               <form action="https://formspree.io/f/mrgvznra" id="formyTwo" method="POST">
                 <div className="tog">
-                  <h2>Please, write feedback about our web app</h2>
-                  <input name="name" type="text" placeholder="Name and Sename" id="nameI" />
+                  <h2>Якщо хочете нам щось написати зв'яжіться з нами</h2>
+                  <input name="name" type="text" placeholder="Ім'я, Прізвище" id="nameI" />
                   <input name="email" type="email" placeholder="Email" id="emailI"/>
-                  <input name="phone" type="phone" placeholder="Phone" id="phoneI"/>
-                  <input name="password" type="password" placeholder="Password" id="passI"/>
-                  <textarea name="formText" id="formText" cols="30" rows="10" placeholder="Your feedback"></textarea>
+                  <input name="phone" type="phone" placeholder="Номер" id="phoneI"/>
+                  <textarea name="formText" id="formText" cols="30" rows="10" placeholder="Ваше повідомлення"></textarea>
                 </div>
                 <div className="boxSend">
                   <button className="text-box" type="submit">
-                    Send It
+                    Надіслати
                   </button>
                 </div>
               </form>

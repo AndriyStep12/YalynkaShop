@@ -18,7 +18,7 @@ function Home (){
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ["<span id='red'>trees</span>", "<span id='yellow'>toys</span>", "<span id='green'>garlands</span>"],
+            strings: ["<span id='red'>ялинку</span>", "<span id='yellow'>іграшки</span>", "<span id='green'>гірлянди</span>"],
             smartBackspace: true, // this is a default
             showCursor: true,
             typeSpeed: 120,
@@ -44,11 +44,11 @@ function Home (){
             {/* {actionArr.map(item => <BoxProps key={item} nameAction={item.nameAction} description={item.description} />)} */}
             <div className="box_CenterHome">
                 <div className="wydno">
-                    <div className="textZn" id="textZn">If you want to buy Christmas <span ref={el}></span></div>
+                    <div className="textZn" id="textZn">Якщо бажаєте купити <span ref={el}></span></div>
                     <button className='clickHere' onClick={function(){
                         document.location.href = window.location.pathname + '#' + 'Products';
                         document.location.reload();
-                    }}><span>🎄Click here🎄</span><i></i></button>
+                    }}><span>🎄Клікніть тут🎄</span><i></i></button>
                 </div>
             </div>
             <div className="nextBox">
