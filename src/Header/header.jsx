@@ -77,7 +77,7 @@ class Header extends Component {
                                 $(lookDown).css("height", "85vh")
                                 $(linesTwo).css("opacity", "0")
                                 $(linesOne).css("transform", "rotate(45deg)")
-                                $(linesOne).css("margin-bottom", "-5px")
+                                $(linesOne).css("margin-bottom", "-15px")
                                 $(linesThree).css("transform", "rotate(-45deg)")
                                 $(linesThree).css("top", "-50px")
                                 setTimeout(function(){
