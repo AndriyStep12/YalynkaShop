@@ -52,7 +52,7 @@ class SwiperB extends Component {
 
           {/* {valAct} */}
 
-          {DataBaseActions.map(index => DataBaseActions.items.map(item => <BoxAct key={item} box={item.box} price={item.price} imgItem={item.imgItem} nameClass={item.nameClass} nameT={item.nameT} locationItem={item.locationItem} inputNumb={item.inputNumb} />))}
+          {DataBaseActions.map(index => items.map(item => <BoxAct key={item} box={item.box} price={item.price} imgItem={item.imgItem} nameClass={item.nameClass} nameT={item.nameT} locationItem={item.locationItem} inputNumb={item.inputNumb} />))}
 
 
         </div>
