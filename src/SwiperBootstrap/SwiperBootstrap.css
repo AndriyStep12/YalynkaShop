@@ -112,6 +112,6 @@
   }
 }
 
-.noneDisplay{
+#boxActions .quantity .noneDisplay{
   display: none;
 }
