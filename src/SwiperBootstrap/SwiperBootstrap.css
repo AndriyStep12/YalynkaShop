@@ -47,8 +47,8 @@
   z-index: 10;
 }
 
-#boxActions{
-  width: 80%;
+.actionGet{
+  width: 100%;
 }
 
 .carousel-item-next,
