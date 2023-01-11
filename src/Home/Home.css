@@ -257,6 +257,14 @@
         height: 60px;
         font-size: 14px;
     }
+
+    .clickHere:hover {
+        letter-spacing: 0.15rem;
+        background: rgb(0, 237, 100);
+        color: rgb(0, 237, 100);
+        box-shadow: 0 0 50px 10px rgb(0, 237, 100);
+      }
+      
 }
 
 @media screen and (max-width: 600px) {

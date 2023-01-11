@@ -32,8 +32,8 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: rgb(112, 255, 121);
-  border-radius: 5px;
-  margin-right: 10px;
+  /* border-radius: 5px; */
+  /* margin-right: 10px; */
 }
 
 .App {
