@@ -32,9 +32,10 @@ class BoxContent extends Component {
                         <div className="hidenBox">
                             <div className="hb">
                                 <div className="boxyy">
-                                    Action name: 
+                                    Count:
                                     <div class="quantity">
-                                        {this.props.nameAction}
+                                        1
+                                        <input type="number" value={1} id={this.props.inputNumb} style="display: none" />
                                     </div> 
                                 </div>
                                 <div className="priceBox">
