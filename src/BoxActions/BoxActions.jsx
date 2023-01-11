@@ -35,7 +35,7 @@ class BoxContent extends Component {
                                     Count:
                                     <div class="quantity">
                                         1
-                                        <input type="number" value={1} id={this.props.inputNumb} style="display: none" />
+                                        <input type="number" value={1} id={this.props.inputNumb} className="noneDisplay" />
                                     </div> 
                                 </div>
                                 <div className="priceBox">
