@@ -34,7 +34,8 @@
     width: 80%;
     height: 80px;
     margin: 20px 0;
-    background-color: #e5e5e5;
+    background-color: #499fff;
+    color: #fff;
     border-radius: 20px 0 20px 0;
     display: flex;
     justify-content: space-around;
@@ -79,7 +80,7 @@
     font-size: 20px;
     border-radius: 10px;
     /* color: #fff; */
-    font-family: 'Mountains of Christmas', cursive;
+    /* font-family: 'Mountains of Christmas', cursive; */
     margin-top: 30px;
 }
 

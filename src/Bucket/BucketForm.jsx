@@ -89,7 +89,7 @@ function BucketForm () {
                             } id="allWhatYouWantNumber" />
                             <input disabled className="boxPay" type="text" name="to_pay" value={ 'До оплати: ' + JSON.parse(localStorage.getItem("prices_")) + '$' }/>
                             <input className="displayNone" type="text" name="to_products" id="allWhatYouWantNumber" value={valy} />
-                            <input  id="sendy" type="submit" value="Send" onClick={function(){
+                            <input  id="sendy" type="submit" value="Відправити" onClick={function(){
                                 // document.location.href == 'https://yalynka-shop.vercel.app/#Home';
                                 // document.location.reload();
                                 alert("Sent successfully. Check your Gmail")
@@ -100,7 +100,7 @@ function BucketForm () {
                                 
                                 $(boxBucket).css("z-index", "5")
                                 $(element).css("top", "-100vh")
-                            }}>Close</button>
+                            }}>Закрити</button>
                         </form>
                     </div>
                 </div>
