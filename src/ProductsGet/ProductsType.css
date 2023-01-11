@@ -68,7 +68,6 @@
         justify-content: center;
         align-items: center;
         min-height: 120vh;
-        margin-top: 100px;
     }
 
     .lock{
@@ -83,7 +82,7 @@
     }
 
     .alltreeBase{
-        /* margin-top: 100px; */
+        margin-top: 100px;
     }
 
     #boxActBuy{
