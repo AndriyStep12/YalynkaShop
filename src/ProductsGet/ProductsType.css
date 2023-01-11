@@ -6,7 +6,8 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -26,6 +27,16 @@
     cursor: pointer;
 }
 
+.lock{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 #boxTre{
     background-image: url(./yalynka.webp);
 }
@@ -36,6 +47,11 @@
 
 #boxGar{
     background-image: url(./girlyandy.webp);
+}
+
+#boxActBuy{
+    background-image: url(./sale.webp);
+    width: 90%;
 }
 
 @media screen and (max-width: 810px) {
@@ -51,3 +67,4 @@
         width: 80%;
     }
 }
+

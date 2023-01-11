@@ -86,7 +86,7 @@ class App extends Component {
       oneType = '';
       twoType = '';
       thrType = '';
-    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#BetaTest'){
+    } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Sale'){
       appBox = <SwiperBoot/>
       helloApp = '';
       oneType = '';

@@ -8,6 +8,13 @@ class TypeProduct extends Component{
     render(){
         return(
             <div className="boxType">
+                <div className="boxInType" id="boxActBuy" onClick={function(){
+                    document.location.href = window.location.pathname + '#Sale';
+                    document.location.reload();
+                }}>
+                    Акційні
+                </div>
+                <div className="lock">
                 <div className="boxInType" id="boxTre" onClick={function(){
                     document.location.href = window.location.pathname + '#Trees';
                     document.location.reload();
@@ -25,6 +32,7 @@ class TypeProduct extends Component{
                     document.location.reload();
                 }}>
                     Гірлянди
+                </div>
                 </div>
             </div>
         )

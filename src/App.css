@@ -46,6 +46,12 @@
   overflow-x: hidden;
 }
 
+.boxInType,
+.boxHeadTextImg p,
+.span_buttons{
+  font-family: 'e-Ukraine_Logo';
+}
+
 @media screen and (max-width: 1275px) {
   .boxInsideTwo {
     font-size: 15px;
