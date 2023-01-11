@@ -259,7 +259,8 @@
     }
 
     .clickHere:hover {
-        letter-spacing: 0.15rem;
+        letter-spacing: 0.25rem;
+        font-size: 12px;
         background: rgb(0, 237, 100);
         color: rgb(0, 237, 100);
         box-shadow: 0 0 50px 10px rgb(0, 237, 100);
