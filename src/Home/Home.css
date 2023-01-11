@@ -249,13 +249,13 @@
 
 @media screen and (max-width: 670px) {
     .textZn {
-        font-size: 22px;
+        font-size: 25px;
     }
 
     .clickHere{
         width: 220px;
         height: 60px;
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
