@@ -8,6 +8,7 @@ class PropsBoxHome extends Component{
     render(){
         return(
             <div className="boxesThFv">
+                <div className="dark"></div>
                 <div className="left-side">
                     <div id='picDiv' className='divPic' style={{backgroundImage: 'url(' + this.props.imageUrl + ')'}} ></div>
                 </div>
