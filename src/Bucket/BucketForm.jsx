@@ -70,7 +70,7 @@ function BucketForm () {
                             $(element).css("top", "0vh")
                             $(boxBucket).css("z-index", "1000")
                             $(boxBucketBuck).css("z-index", "1000")
-                        }}>Buy</button>
+                        }}>Купити</button>
                     </div>
                 </div>
                 <div className="boxEmail">
