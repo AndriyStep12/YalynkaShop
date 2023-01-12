@@ -236,21 +236,21 @@
     border-radius: 50%;
     color: #fff;
     position: absolute;
-    margin-top: 30vh;
+    margin-top: 50vh;
     animation: slideDownUp 4s infinite ;
 }
 
 @keyframes slideDownUp {
     0%{
-        margin-top: 30vh;
+        margin-top: 50vh;
     }
 
     50%{
-        margin-top: 40vh;
+        margin-top: 60vh;
     }
 
     100%{
-        margin-top: 30vh;
+        margin-top: 60vh;
     }
 }
 
