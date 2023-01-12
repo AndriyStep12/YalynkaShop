@@ -49,6 +49,17 @@ function Home (){
                         document.location.href = window.location.pathname + '#' + 'Products';
                         document.location.reload();
                     }}><span>🎄Клікніть тут🎄</span><i></i></button>
+                    <button className="downClick" onClick={function(){
+                        window.scrollTo(0, innerHeight);
+
+                        // этот код меняет поведение прокрутки на "smooth"
+                        window.scrollTo({
+                            top: innerHeight,
+                            behavior: "smooth"
+                        });
+                    }}>
+                        ❯
+                    </button>
                 </div>
             </div>
             <div className="nextBox">
