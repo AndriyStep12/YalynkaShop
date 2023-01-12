@@ -234,6 +234,24 @@
     font-size: 40px;
     background: none;
     border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    margin-top: 30vh;
+    animation: slideDownUp 4s infinite ;
+}
+
+@keyframes slideDownUp {
+    0%{
+        margin-top: 30vh;
+    }
+
+    50%{
+        margin-top: 40vh;
+    }
+
+    100%{
+        margin-top: 30vh;
+    }
 }
 
 #row,
