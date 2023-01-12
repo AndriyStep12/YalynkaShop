@@ -38,6 +38,10 @@ function Home (){
     //     alert('dg')
     // }}
 
+    const scrollToTop = () => {
+        document.body.scroll(0, innerHeight)
+    }
+
     return(
         
         <div className="homePage">
@@ -50,17 +54,8 @@ function Home (){
                         document.location.reload();
                     }}><span>🎄Клікніть тут🎄</span><i></i></button>
                     <button className="downClick" onClick={function(){
-                        // window.scrollTo(0, innerHeight);
-
-                        // document.window.scrollTo(0, innerHeight)
-
-                        // document.window.scrollTo({
-                        //     top: innerHeight,
-                        //     behavior: "smooth"
-                        // });
-
-                        // document.body.scroll(0, 10)
-
+                        
+                        scrollToTop()
 
                     }}>
                         ➜
