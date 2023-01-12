@@ -38,9 +38,7 @@ function Home (){
     //     alert('dg')
     // }}
 
-    const scrollToTop = () => {
-        document.querySelector('body').scrollTo(0, innerHeight)
-    }
+    
 
     return(
         
@@ -55,7 +53,7 @@ function Home (){
                     }}><span>🎄Клікніть тут🎄</span><i></i></button>
                     <button className="downClick" onClick={function(){
                         
-                        scrollToTop()
+                        alert(innerHeight)
 
                     }}>
                         ➜
