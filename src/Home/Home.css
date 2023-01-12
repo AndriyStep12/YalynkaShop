@@ -238,6 +238,7 @@
     position: absolute;
     margin-top: 50vh;
     animation: slideDownUp 4s infinite ;
+    transition: 1s;
 }
 
 @keyframes slideDownUp {
@@ -250,7 +251,7 @@
     }
 
     100%{
-        margin-top: 60vh;
+        margin-top: 50vh;
     }
 }
 
