@@ -41,11 +41,13 @@
     height: 85vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     color: #fff;
     flex-direction: column;
     position: relative;
     z-index: 30;
+    padding: 0 30px;
+    -webkit-text-stroke: 2px black;
 }
 
 /* .clickHere {
