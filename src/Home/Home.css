@@ -241,6 +241,12 @@
     transition: 1s;
 }
 
+.downClick:hover{
+    border: 3px solid rgb(255, 104, 104);
+    color: rgb(255, 104, 104);
+    box-shadow: 0 0 100px rgb(255, 104, 104);
+}
+
 @keyframes slideDownUp {
     0%{
         margin-top: 50vh;
