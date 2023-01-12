@@ -59,7 +59,7 @@ function Home (){
                         //     behavior: "smooth"
                         // });
 
-                        document.body.scroll(0, innerHeight)
+                        // document.body.scroll(0, 10)
 
 
                     }}>
