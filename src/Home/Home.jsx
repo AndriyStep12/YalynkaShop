@@ -50,16 +50,18 @@ function Home (){
                         document.location.reload();
                     }}><span>🎄Клікніть тут🎄</span><i></i></button>
                     <button className="downClick" onClick={function(){
-                        window.scrollTo(0, innerHeight);
+                        // window.scrollTo(0, innerHeight);
 
-                        document.window.scrollTo(0, innerHeight)
+                        // document.window.scrollTo(0, innerHeight)
 
-                        document.window.scrollTo({
-                            top: innerHeight,
-                            behavior: "smooth"
-                        });
+                        // document.window.scrollTo({
+                        //     top: innerHeight,
+                        //     behavior: "smooth"
+                        // });
 
-                        
+                        document.body.scroll(0, innerHeight)
+
+
                     }}>
                         ❯
                     </button>
