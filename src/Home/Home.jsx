@@ -39,7 +39,7 @@ function Home (){
     // }}
 
     const scrollToTop = () => {
-        document.body.scroll(0, innerHeight)
+        document.querySelector('body').scrollTo(0, innerHeight)
     }
 
     return(
