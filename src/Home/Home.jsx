@@ -52,11 +52,14 @@ function Home (){
                     <button className="downClick" onClick={function(){
                         window.scrollTo(0, innerHeight);
 
-                        // этот код меняет поведение прокрутки на "smooth"
-                        window.scrollTo({
+                        document.window.scrollTo(0, innerHeight)
+
+                        document.window.scrollTo({
                             top: innerHeight,
                             behavior: "smooth"
                         });
+
+                        
                     }}>
                         ❯
                     </button>
