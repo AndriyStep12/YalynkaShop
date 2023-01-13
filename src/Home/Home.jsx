@@ -59,7 +59,7 @@ function Home (){
                     }}><span>🎄Клікніть тут🎄</span><i></i></button>
                     <button className="downClick" onClick={function(){
                         
-                        // window.scrollTo(0, document.body.height);
+                        window.scrollTo(0, window.innerHeight);
 
                         // window.scrollTo({
                         //     top: 100,
@@ -67,10 +67,10 @@ function Home (){
                         //     behavior: 'smooth'
                         // });
 
-                        window.scrollTo({
-                            top: window.innerHeight,
-                            behavior: "smooth"
-                        });
+                        // window.scrollTo({
+                        //     top: window.innerHeight,
+                        //     behavior: "smooth"
+                        // });
 
                     }}>
                         ➜
