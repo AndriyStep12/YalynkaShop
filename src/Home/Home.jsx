@@ -12,9 +12,40 @@ import { useEffect, useRef } from 'react'
 import informationArr from '../Base/Information/Information'
 import PropsBoxInfo from './PropsBoxHome/PropsBoxHome'
 
+
+import { useState, useEffect } from 'react';
+
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window;
+    return {
+      width,
+      height
+    };
+}
+  
+function useWindowDimensions() {
+    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+  
+    useEffect(() => {
+      function handleResize() {
+        setWindowDimensions(getWindowDimensions());
+      }
+  
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+    }, []);
+  
+    return windowDimensions;
+}
+  
+
+
 function Home (){
 
     const el = useRef(null)
+
+    const { height, width } = useWindowDimensions();
+
 
     useEffect(() => {
         const typed = new Typed(el.current, {
@@ -62,7 +93,7 @@ function Home (){
                         // });
 
                         window.scrollTo({
-                            top: innerHeight,
+                            top: {height},
                             behavior: "smooth"
                         });
 
