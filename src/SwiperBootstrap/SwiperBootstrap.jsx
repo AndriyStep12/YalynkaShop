@@ -34,7 +34,7 @@ class SwiperB extends Component {
                 {actArr.map(item => <li data-target="#carouselExampleIndicators" data-slide-to={item} className={item.activeStan}></li>)}
             </ol>
 
-            {actArr.map(item => <BoxAct key={item} description={item.description} urlPhoto={item.urlPhoto} clasName={item.clasName} nameAction={item.nameAction} />)}
+            {actArr.map(item => <BoxAct key={item} nameActInd={item.nameActInd} description={item.description} urlPhoto={item.urlPhoto} clasName={item.clasName} nameAction={item.nameAction} />)}
             
   
           </div>
@@ -53,7 +53,7 @@ class SwiperB extends Component {
           {/* {valAct} */}
 
           {DataBaseActions.map(index =>
-            index.items.map(item => <BoxActionGet key={item || index} nameAction={index.nameAction} box={item.box} price={item.price} imgItem={item.imgItem} nameClass={item.nameClass} nameT={item.nameT} locationItem={item.locationItem} inputNumb={item.inputNumb} />)
+            index.items.map(item => <BoxActionGet key={item || index} nameActInd={index.nameActInd} nameAction={index.nameAction} box={item.box} price={item.price} imgItem={item.imgItem} nameClass={item.nameClass} nameT={item.nameT} locationItem={item.locationItem} inputNumb={item.inputNumb} />)
           )}
 
 

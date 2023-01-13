@@ -3,6 +3,7 @@ let actions = [{
         activeStan: "active",
         clasName: 'carousel-item active',
         nameAction: 'Акція1',
+        nameActInd: 'Action1',
         description: `Якийсь текст`,
         items: [{
                 nameT: 'Ялинка акційна1',
@@ -38,6 +39,7 @@ let actions = [{
         activeStan: "",
         clasName: 'carousel-item',
         nameAction: 'Акція2',
+        nameActInd: 'Action2',
         description: `Якийсь текст`,
         items: [{
                 nameT: 'Іграшка акційна1',
@@ -73,6 +75,7 @@ let actions = [{
         activeStan: "",
         clasName: 'carousel-item',
         nameAction: 'Акція3',
+        nameActInd: 'Action3',
         description: `Якийсь текст`,
         items: [{
                 nameT: 'Гірлянди акційні1',

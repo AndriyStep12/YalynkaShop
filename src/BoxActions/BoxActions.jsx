@@ -19,7 +19,7 @@ class BoxContent extends Component {
     
     render(){
         return(
-                <div className="box_tree" id="boxActions">
+                <div className="box_tree" id={"boxActions " + this.props.nameActInd}>
                     <div className="left-side">
                         <img src={this.props.imgItem} className="saleImage" alt="" />
                     </div>

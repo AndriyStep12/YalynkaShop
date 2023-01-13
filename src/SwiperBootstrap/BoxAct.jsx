@@ -11,11 +11,7 @@ function BoxAct (props) {
                 <div className="boxAct" style={{backgroundImage: 'url(' + props.urlPhoto + ')'}}>
                     <h3>{props.nameAction}</h3>
                     <p>{props.description}</p>
-                    <button className="loadBut" id={props.nameAction} onClick={function(e){
-                        let goUrl = e.target.id;
-                        document.location.href = window.location.pathname + '#' + goUrl;
-                        document.location.reload();
-                    }}>Перейти</button>
+                    <a  href={"#" + this.props.nameActInd} className="nav-link loadBut" id={props.nameAction}>Перейти</a>
                 </div>
             </div>
             
