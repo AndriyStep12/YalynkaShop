@@ -224,14 +224,14 @@
 }
 
 .downClick{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border: 3px solid #fff;
     transform: rotate(90deg);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 30px;
     background: none;
     border-radius: 50%;
     color: #fff;

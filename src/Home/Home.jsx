@@ -53,7 +53,7 @@ function Home (){
                     }}><span>🎄Клікніть тут🎄</span><i></i></button>
                     <button className="downClick" onClick={function(){
                         
-                        alert('innerHeight')
+                        
 
                     }}>
                         ➜
