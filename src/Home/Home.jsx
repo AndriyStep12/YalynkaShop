@@ -96,11 +96,11 @@ function Home (){
             </div>
         </div>
     )
+}
 
-    function getWindowSize() {
-        const {innerWidth, innerHeight} = window;
-        return {innerWidth, innerHeight};
-    }
+function getWindowSize() {
+    const {innerWidth, innerHeight} = window;
+    return {innerWidth, innerHeight};
 }
 
 export default Home;
