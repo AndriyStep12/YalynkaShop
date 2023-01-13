@@ -26,7 +26,7 @@ class BoxContent extends Component {
                     <div className="right-side">
                         <div className="local">
                             <span className={this.props.nameClass} id={this.props.nameT}>Назва: {this.props.nameT}</span>
-                            <span className={this.props.nameClass} id={this.props.price}>Ціна: {this.props.price}</span>
+                            <span className={this.props.nameClass} id={this.props.price}>Ціна: {this.props.price}$</span>
                             <span className={this.props.nameClass} id={this.props.locationItem}>Місце: {this.props.locationItem}</span>
                         </div>
                         <div className="hidenBox">
