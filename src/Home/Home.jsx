@@ -53,7 +53,7 @@ function Home (){
                     }}><span>🎄Клікніть тут🎄</span><i></i></button>
                     <button className="downClick" onClick={function(){
                         
-                        window.scrollTo(0, 1000);
+                        window.scrollTo(0, '100vh');
 
                         window.scrollTo({
                             top: 100,
