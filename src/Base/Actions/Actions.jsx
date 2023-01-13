@@ -3,7 +3,7 @@ let actions = [{
         activeStan: "active",
         clasName: 'carousel-item active',
         nameAction: 'Акція1',
-        nameActInd: 'Action1',
+        nameActInd: '#Action1',
         description: `Якийсь текст`,
         items: [{
                 nameT: 'Ялинка акційна1',
