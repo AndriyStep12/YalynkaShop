@@ -101,9 +101,9 @@ class App extends Component {
         <Head/>
         {helloApp}
         {appBox}
-        {oneType}
+        {/* {oneType}
         {twoType}
-        {thrType}
+        {thrType} */}
       </div>
     );
   }
