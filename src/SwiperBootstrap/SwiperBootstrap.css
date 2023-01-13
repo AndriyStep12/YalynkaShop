@@ -79,7 +79,7 @@
 
 .loadBut{
   border: none;
-  -webkit-text-stroke: none;
+  -webkit-text-stroke: 2px solid none;
   width: 170px;
   height: 50px;
   border-radius: 15px;
