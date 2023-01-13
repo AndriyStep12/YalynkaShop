@@ -11,6 +11,7 @@ import Typed from 'typed.js'
 import { useEffect, useRef } from 'react'
 import informationArr from '../Base/Information/Information'
 import PropsBoxInfo from './PropsBoxHome/PropsBoxHome'
+import './getHeight/GetHeight'
 
 
 import { useState, useEffect } from 'react';
@@ -20,7 +21,7 @@ import { useState, useEffect } from 'react';
 
 function Home (){
 
-    const windowSize = useRef([window.innerWidth, window.innerHeight]);
+    const { height, width } = useWindowDimensions();
 
     const el = useRef(null)
 
@@ -59,7 +60,7 @@ function Home (){
                     }}><span>🎄Клікніть тут🎄</span><i></i></button>
                     <button className="downClick" onClick={function(){
                         
-                        window.scrollTo(0, windowSize[1]);
+                        window.scrollTo(0, height);
 
                         // window.scrollTo({
                         //     top: 100,
