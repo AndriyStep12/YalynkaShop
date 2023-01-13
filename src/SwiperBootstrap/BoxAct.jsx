@@ -6,7 +6,6 @@ import $ from 'jquery'
 
 function BoxAct (props) {
     return(
-        // <div className="ba">
             <div className={props.clasName}>
                 <div className="boxAct" style={{backgroundImage: 'url(' + props.urlPhoto + ')'}}>
                     <h3>{props.nameAction}</h3>
@@ -14,8 +13,6 @@ function BoxAct (props) {
                     <button className="loadBut" onClick={function(e){}}>Перейти</button>
                 </div>
             </div>
-            
-        // </div>
     )
 }
 
