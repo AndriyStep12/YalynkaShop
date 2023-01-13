@@ -54,7 +54,8 @@ class SwiperB extends Component {
 
           {DataBaseActions.map(index => {
               return(
-                <h4 id={(index.nameActInd).substring(1)}>{index.nameAction}</h4>,
+                <h4 id={(index.nameActInd).substring(1)}>{index.nameAction}</h4>
+                &&
                 index.items.map(item => <BoxActionGet key={item || index} nameAction={index.nameAction} box={item.box} price={item.price} imgItem={item.imgItem} nameClass={item.nameClass} nameT={item.nameT} locationItem={item.locationItem} inputNumb={item.inputNumb} />)
               )
             }
