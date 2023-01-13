@@ -12,7 +12,7 @@ class AllTree extends Component{
             <div className="FormBoxHead">
               <form action="https://formspree.io/f/mrgvznra" id="formyTwo" method="POST">
                 <div className="tog">
-                  <h2>Якщо хочете нам щось написати зв'яжіться з нами</h2>
+                  <h2>Якщо хочете нам щось написати, зв'яжіться з нами через цю анкету</h2>
                   <input name="name" type="text" placeholder="Ім'я, Прізвище" id="nameI" />
                   <input name="email" type="email" placeholder="Email" id="emailI"/>
                   <input name="phone" type="phone" placeholder="Номер" id="phoneI"/>
