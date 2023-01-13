@@ -70,9 +70,9 @@ class App extends Component {
       thrType = '';
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Products'){
       appBox = <TypeProduct/>
-      oneType = <AllTree/>;
-      twoType = <AllGarlands/>;
-      thrType = <AllToys/>;
+      oneType = '';
+      twoType = '';
+      thrType = '';
       helloApp = '';
     } else if (document.location.href == 'https://yalynka-shop.vercel.app/#Garlands'){
       appBox = <AllGarlands/>

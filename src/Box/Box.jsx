@@ -1,13 +1,10 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import $ from 'jquery'
-import saleImg from '../AllTree/sale.png'
 import jQuery from "jquery";
-import arrTovar from '../Base/Tovars/Tovars'
 import emailjs from "emailjs-com";
 
 let arr = JSON.parse(localStorage.getItem('arr')) || [];
-let numb_tovars = JSON.parse(localStorage.getItem('numb_')) || 0;
 let numb_products = JSON.parse(localStorage.getItem('products_')) || 0;
 let price_products = JSON.parse(localStorage.getItem('prices_')) || 0;
 
