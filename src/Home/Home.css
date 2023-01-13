@@ -372,3 +372,7 @@
 #blue {
     color: rgb(120, 103, 251);
 }
+
+.right-side{
+    padding: 0 30px;
+}
