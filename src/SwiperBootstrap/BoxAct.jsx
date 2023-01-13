@@ -11,7 +11,7 @@ function BoxAct (props) {
                 <div className="boxAct" style={{backgroundImage: 'url(' + props.urlPhoto + ')'}}>
                     <h3>{props.nameAction}</h3>
                     <p>{props.description}</p>
-                    <a  href={"#" + props.nameActInd} className="nav-link loadBut" id={props.nameAction}>Перейти</a>
+                    <a  href={"#" + props.nameActInd + 'a'} className="nav-link loadBut" id={props.nameAction}>Перейти</a>
                 </div>
             </div>
             
