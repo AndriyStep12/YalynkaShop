@@ -13,7 +13,6 @@ import informationArr from '../Base/Information/Information'
 import PropsBoxInfo from './PropsBoxHome/PropsBoxHome'
 
 
-import { useState, useEffect } from 'react';
 
 
 
