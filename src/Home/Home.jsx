@@ -55,11 +55,11 @@ function Home (){
                         
                         window.scrollTo(0, '100vh');
 
-                        window.scrollTo({
-                            top: 100,
-                            left: 100,
-                            behavior: 'smooth'
-                        });
+                        // window.scrollTo({
+                        //     top: 100,
+                        //     left: 100,
+                        //     behavior: 'smooth'
+                        // });
 
                     }}>
                         ➜
