@@ -20,19 +20,7 @@ import { useState, useEffect } from 'react';
 
 function Home (){
 
-    const [windowSize, setWindowSize] = useState(getWindowSize());
-
-    useEffect(() => {
-        function handleWindowResize() {
-            setWindowSize(getWindowSize());
-        }
-
-        window.addEventListener('resize', handleWindowResize);
-
-        return () => {
-            window.removeEventListener('resize', handleWindowResize);
-        };
-    }, []);
+    const windowSize = useRef([window.innerWidth, window.innerHeight]);
 
     const el = useRef(null)
 
@@ -58,8 +46,6 @@ function Home (){
     //     alert('dg')
     // }}
 
-    
-
     return(
         
         <div className="homePage">
@@ -73,7 +59,7 @@ function Home (){
                     }}><span>🎄Клікніть тут🎄</span><i></i></button>
                     <button className="downClick" onClick={function(){
                         
-                        window.scrollTo(0, windowSize.innerHeight);
+                        window.scrollTo(0, windowSize.current[1]);
 
                         // window.scrollTo({
                         //     top: 100,
@@ -98,9 +84,5 @@ function Home (){
     )
 }
 
-function getWindowSize() {
-    const {innerWidth, innerHeight} = window;
-    return {innerWidth, innerHeight};
-}
 
 export default Home;
