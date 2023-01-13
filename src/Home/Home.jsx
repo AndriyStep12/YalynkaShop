@@ -20,34 +20,7 @@ import { useState, useEffect } from 'react';
 
 function Home (){
 
-    function getWindowDimensions() {
-        const { innerWidth: width, innerHeight: height } = window;
-        return {
-          width,
-          height
-        };
-    }
-      
-    function useWindowDimensions() {
-        const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
-      
-        useEffect(() => {
-          function handleResize() {
-            setWindowDimensions(getWindowDimensions());
-          }
-      
-          window.addEventListener('resize', handleResize);
-          return () => window.removeEventListener('resize', handleResize);
-        }, []);
-      
-        return windowDimensions;
-    }
-      
-
     const el = useRef(null)
-
-    const { height, width } = useWindowDimensions();
-
 
     useEffect(() => {
         const typed = new Typed(el.current, {
@@ -95,7 +68,7 @@ function Home (){
                         // });
 
                         window.scrollTo({
-                            top: {height},
+                            top: window.innerHeight,
                             behavior: "smooth"
                         });
 
