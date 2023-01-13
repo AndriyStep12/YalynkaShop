@@ -8,7 +8,12 @@ class Button extends Component {
     render(props){
         return(
             <span className='span_button' onClick={function(e){
-                document.location.href = window.location.pathname + '#' + e.target.id;
+                if (e.target.id == 'Home'){
+                    // https://yalynka-shop.vercel.app/
+                    document.location.href = 'https://yalynka-shop.vercel.app/';
+                } else{
+                    document.location.href = window.location.pathname + '#' + e.target.id;
+                }
                 document.location.reload();
             }} id={this.props.idButton}>{this.props.idButton}</span>
         ) 
