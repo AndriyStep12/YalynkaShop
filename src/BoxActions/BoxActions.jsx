@@ -39,7 +39,6 @@ class BoxContent extends Component {
                                     </div> 
                                 </div>
                                 <button className={this.props.box} id="addBucketId"  onClick={function(e, props){
-                                    alert('Додано до корзини')
                                     let numberOfBox = (e.target.className).substring(12);
                                     let nameInp = 'inputAct' + numberOfBox
                                     let obj = document.getElementsByClassName('nameAct' + numberOfBox)
@@ -56,6 +55,8 @@ class BoxContent extends Component {
                                         buttonNext: 'boxButtonName' + numberOfBox,
                                         divNext: 'divButtonName' + numberOfBox
                                     }
+
+                                    alert('Додано до корзини ' + product.namePush + ', кількість - ' + product.countTovar)
 
                                     arr.push(product)
                                     // let numy = document.getElementById(nameInp).value;
