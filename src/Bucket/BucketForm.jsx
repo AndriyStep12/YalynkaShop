@@ -5,6 +5,7 @@ import { ReactDOM } from "react";
 import BoxBucket from '../BoxBucket/BoxBucket'
 import BoxBucketNone from '../NoneArr/NoneArr'
 import $ from 'jquery'
+import jQuery from "jquery";
 import { useRef } from 'react';
 import emailjs from "emailjs-com";
 
