@@ -97,7 +97,8 @@ function BucketForm () {
                                 let docMass = document.getElementById("boxCentAdd")
                                 $(boxBucket).css("z-index", "5")
                                 $(element).css("top", "-100vh")
-                                $(docMass).html('<BoxBucketNone/>')
+                                mass = <BoxBucketNone/>
+                                $(docMass).html({mass})
                             }} />
                             <button  id="sendy" onClick={function(){
                                 
