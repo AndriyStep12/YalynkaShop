@@ -56,7 +56,7 @@ class BoxContent extends Component {
                                         divNext: 'divButtonName' + numberOfBox
                                     }
 
-                                    alert('Додано до корзини ' + product.namePush + ', кількість - ' + product.countTovar)
+                                    alert('Продукт ' + product.namePush + ' додано до корзини')
 
                                     arr.push(product)
                                     // let numy = document.getElementById(nameInp).value;
