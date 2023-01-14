@@ -74,7 +74,7 @@ function BucketForm () {
                     </div>
                 </div>
                 <div className="boxEmail">
-                    <div className="box-email">
+                    <div className="box-email" id="box-emailId">
                         <h4>Веддіть ваш email, номер і локацію для доставки</h4>
                         <form ref={form} id="formy" onSubmit={sendEmail}>
                             <input type="text" name="to_name" placeholder="Ім'я" />
@@ -95,6 +95,8 @@ function BucketForm () {
                                 alert("Sent successfully. Check your Gmail")
                                 localStorage.clear();
                                 let docMass = document.getElementById("boxCentAdd")
+                                $(boxBucket).css("z-index", "5")
+                                $(element).css("top", "-100vh")
                                 $(docMass).html(<BoxBucketNone/>)
                             }} />
                             <button  id="sendy" onClick={function(){
