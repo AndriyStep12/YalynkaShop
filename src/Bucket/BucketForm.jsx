@@ -94,7 +94,8 @@ function BucketForm () {
                                 // document.location.reload();
                                 alert("Sent successfully. Check your Gmail")
                                 localStorage.clear();
-                                document.location.reload();
+                                let docMass = document.getElementById("boxCentAdd")
+                                $(docMass).html(<BoxBucketNone/>)
                             }} />
                             <button  id="sendy" onClick={function(){
                                 
